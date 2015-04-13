@@ -1,0 +1,47 @@
+.case-study {
+  width:1300px;
+  font-family: 'Open sans', 'Light';
+  color: white;
+  figure {
+    position: relative;
+    width: 50%;
+    &:first-child {
+      float: left;
+      text-align: right;
+      figcaption {
+        padding:80px 55px 80px 150px;
+      }
+    }
+    &:last-child {
+      float: right;
+      text-align: left;
+      figcaption {
+      padding:80px 150px 80px 55px;
+      }
+    }
+    img {
+      width: 100%;
+    }
+    figcaption {
+      position: absolute;
+      top:0;
+      right:0;
+      left:0;
+      bottom:0;
+      @include transition-property(all);
+      @include transition-duration(400ms);
+      &:hover{
+        background: rgba(224, 92, 78, 0.9);
+        cursor:pointer;
+      }
+      h3 {
+        color:white;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
+        margin-bottom: 20px;
+      }
+
+  }
+  }
+}

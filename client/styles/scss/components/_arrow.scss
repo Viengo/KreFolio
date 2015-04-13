@@ -1,0 +1,53 @@
+ .left {
+    position: absolute;
+    display: block;
+    width: 45px;
+    height: 45px;
+    top: 400px;
+    left: 50px;
+    @include box-sizing(border-box);
+    &:before {
+      display: block;
+      content: '';
+      width: 45px;
+      height: 45px;
+      background: url(../../images/icons/arrow.png) no-repeat center;
+      border: 2px solid #9f9f9f;
+      @include border-radius(3px);
+      @include transform(rotate(180deg));
+      @include transition-property(all);
+      @include transition-duration(300ms);
+    }
+    &:hover:before {
+      background: url(../../images/icons/arrow-act.png) no-repeat center;
+      border: 2px solid white;
+      @include transform(rotate(180deg)scale(1.1));
+    }
+  }
+  .right {
+    position: absolute;
+    display: block;
+    width: 45px;
+    height: 45px;
+    top: 400px;
+    right: 50px;
+    @include box-sizing(border-box);
+    &::before {
+      display: block;
+      content: '';
+      width: 45px;
+      height: 45px;
+      background: url(../../images/icons/arrow.png) no-repeat center;
+      border: 2px solid #9f9f9f;
+      @include border-radius(3px);
+      @include box-sizing(border-box);
+      @include transition-property(all);
+      @include transition-duration(300ms);
+    }
+    &:hover:before {
+      background: url(../../images/icons/arrow-act.png) no-repeat center;
+      border: 2px solid white;
+      @include transform(scale(1.1));
+    }
+  }
+

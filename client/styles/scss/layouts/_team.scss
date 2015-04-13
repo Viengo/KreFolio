@@ -1,0 +1,52 @@
+.team {
+  color: #666666;
+  p {
+    margin: 85px 0 35px 0;
+  }
+  figure {
+    display: inline-block;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    margin:15px 15px 100px 0;
+    color:white;
+    @include box-sizing(border-box);
+    @include border-radius(2px);
+    border: 1px solid #ec6659;
+    overflow:hidden;
+    &:last-child{
+      margin-right:0;
+    }
+    &:hover {
+      figcaption {
+        height: 100%;
+        opacity: 1;
+      }
+    }
+    figcaption {
+      width:100%;
+      position: absolute;
+      text-align: center;
+      font-family: 'open sans';
+      height: 0;
+      bottom: 0;
+      opacity: 0;
+      background:rgba(237,110,97,0.8);
+      @include transition-property(all);
+      @include transition-duration(800ms);
+      h4 {
+        font-weight: 600;
+        margin: 100px 0 5px 0;
+      }
+      p{
+        margin:0;
+      }
+      a {
+        margin-top:95px;
+        font-size: 16px;
+        line-height: 60px;
+        background: #c0392b;
+      }
+    }
+  }
+}

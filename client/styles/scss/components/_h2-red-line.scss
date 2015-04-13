@@ -1,0 +1,17 @@
+.red-line{
+    position:relative;
+    font-size: 40px;
+    color: black;
+    margin-bottom:80px;
+    &::before{
+      position:absolute;
+      top:75px;
+      width:100px;
+      height:4px;
+      content: "";
+      background:url(../../images/icons/line.png) no-repeat;
+    }
+    span {
+      color: #e74c3c;
+    }
+}

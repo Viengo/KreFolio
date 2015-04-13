@@ -1,0 +1,22 @@
+body{
+  position:relative;
+  section{
+    min-width:946px;
+    margin: 0 auto;
+  .container{
+    width:946px;
+    margin:0 auto;
+    padding-top:100px;
+  }
+    .clearfix{
+      @include clearfix;
+    }
+    &.twitter{
+      .container{
+        width:740px;
+        padding:120px 0 145px 0;
+      }
+    }
+  }
+
+}

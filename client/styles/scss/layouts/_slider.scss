@@ -1,0 +1,89 @@
+.slider {
+  position: relative;
+  height:868px;
+  background: url(../../images/backgrounds/slider-6.png) no-repeat;
+  background-size:cover;
+  color: #eeeeee;
+  text-align: center;
+  h1 {
+    margin: 135px 0 45px;
+    font-size: 60px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: 'Campton', 'light demo';
+    font-size: 22px;
+  }
+  .logotip {
+      padding-top: 45px;
+      float: left;
+      margin-left:195px;
+    &:after{
+      display: block;
+      content: '';
+      width: 180px;
+      height: 30px;
+      background: url(../../images/icons/creative.png) no-repeat;
+    }
+    }
+
+
+  .button-suggest {
+    margin:45px 0 230px 0;
+    li {
+      width: 200px;
+      height: 70px;
+      @include box-sizing(border-box);
+      &:first-child {
+        border: 2px solid white;
+        border-radius: 2px;
+        @include transition-property(all);
+        @include transition-duration(400ms);
+        &:hover {
+          @include transform(scale(1.1));
+        }
+      }
+      &:last-child {
+        margin-left: 30px;
+        background-color: #e74c3c;
+        border: 2px solid #e74c3c;
+        border-radius: 2px;
+        @include transition-property(all);
+        @include transition-duration(400ms);
+        &:hover {
+          @include transform(scale(1.1));
+        }
+      }
+      a {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 70px;
+      }
+    }
+
+  }
+  .nav-slider{
+    text-align:center;
+    margin-bottom:40px;
+    li{
+      width:40px;
+      height:4px;
+      margin-right:5px;
+      background:white;
+      &.showPage{
+        background:#e74c3c;
+    }
+      a{
+        height:4px;
+        opacity:0;
+      }
+    }
+  }
+  .red-links{
+    p{
+      margin-right:125px;
+    }
+  }
+}

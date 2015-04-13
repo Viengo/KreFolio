@@ -1,0 +1,58 @@
+.about-us {
+  background: url(../../images/backgrounds/about-us-back.png) no-repeat;
+  background-size: cover;
+  padding-top:100px;
+  figure {
+    img {
+      float: right;
+      margin-top:15px;
+      &.mac {
+        margin:-130px -100px 0 25px;
+      }
+    }
+    figcaption {
+      h2 {
+        margin: 100px 0 25px 0;
+        font-size: 40px;
+        line-height: 50px;
+        color: black;
+      }
+      p {
+        line-height: 35px;
+        color:#3d3d3d;
+      }
+      dl {
+        padding-top: 50px;
+        width: 600px;
+        dt {
+          background: #eeeeee;
+          margin-bottom:8px;
+          border: 1px solid #d3d3d3;
+          border-radius: 2px;
+          font-weight: 600;
+          padding: 10px 18px;
+          height:38px;
+          overflow:hidden;
+          @include box-sizing(border-box);
+          &::after {
+            content: '-';
+            float: right;
+            vertical-align: middle;
+          }
+          &:hover {
+            background: #e74c3c;
+            color: white;
+            &::after {
+              content: '+'
+            }
+          }
+        }
+        dd {
+          font-size: 16px;
+          display:none;
+          padding-left: 18px;
+        }
+      }
+    }
+  }
+}

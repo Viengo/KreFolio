@@ -1,0 +1,166 @@
+.portfolios {
+  text-align: center;
+  .red-line {
+    margin-bottom: 80px;
+    &::before {
+      left: 415px;
+    }
+  }
+
+  .sort-img-menu {
+    li {
+      position: relative;
+      margin: 35px 10px 50px 0;
+      &:first-child:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: "";
+        background: url(../../images/icons/key-button.png) no-repeat;
+        width: 16px;
+        height: 16px;
+      }
+      &::before {
+        content: '/';
+        margin-right: 10px;
+      }
+      a {
+        display:inline-block;
+        color: #666666;
+        &:hover {
+          color: #ec6659;
+        }
+      }
+    }
+  }
+  .figure-container {
+    width:1300px;
+    margin:0 auto;
+    figure {
+      float:left;
+      position: relative;
+      width: 325px;
+      height: 325px;
+      overflow: hidden;
+      @include box-sizing(border-box);
+      @include transition-property(all);
+      @include transition-duration(600ms);
+      &:hover {
+        img {
+          @include transition-duration(3000ms);
+          @include transform(scale(1.5));
+        }
+        figcaption {
+          background: rgba(224, 92, 78, 0.9);
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          font-size: 16px;
+          p {
+            opacity: 1;
+          }
+          a {
+            opacity: 1;
+          }
+        }
+      }
+      figcaption {
+        position: absolute;
+        top: 120px;
+        right: 110px;
+        width: 25%;
+        height: 25%;
+        padding: 20px;
+        font-size: 0;
+        text-align: center;
+        @include box-sizing(border-box);
+        @include transition-property(all);
+        @include transition-duration(200ms);
+        &:hover {
+          background: rgba(224, 92, 78, 0.9);
+        }
+        p {
+          margin:115px 0 35px 0;
+          font-size: 30px;
+          opacity: 0;
+          color: white;
+          font-weight: 600;
+        }
+        a {
+          position:relative;
+          display: inline-block;
+          padding: 0 20px;
+          font-size: 16px;
+          opacity: 0;
+          font-weight: 600;
+          line-height: 66px;
+          border: 2px solid white;
+          border-radius: 2px;
+          overflow:hidden;
+          @include box-sizing(border-box);
+          @include transition-property(all);
+          @include transition-duration(200ms);
+          &:hover:after{
+            opacity:1;
+            @include transform(scale(7)rotate(365deg));
+          }
+          &::after{
+            position:absolute;
+            top:0;
+            right:45px;
+            display:block;
+            width:59px;
+            height:59px;
+            content:'';
+            opacity:0;
+            background:url(../../images/icons/shooter.png) no-repeat;
+            @include transition-property(all);
+            @include transition-duration(2000ms);
+          }
+        }
+      }
+    }
+  }
+  .load-more{
+    display:inline-block;
+    width:178px;
+    margin:35px 0 40px 0;
+    color:#666666;
+    line-height:50px;
+    font-family: 'Campton', 'Bold Demo';
+    @include box-sizing(border-box);
+    border:1px solid #666666;
+    border-radius:1px;
+    @include transition-property(all);
+    @include transition-duration(600ms);
+    &::before{
+      display:inline-block;
+      content:'';
+      width:21px;
+      height:16px;
+      margin-right:10px;
+      vertical-align:middle;
+      background:url(../../images/icons/reload-arrows.png) no-repeat;
+    }
+    &:hover{
+      @include transform(scale(1.1));
+      &:before{
+        @include transition-property(all);
+        @include transition-duration(2000ms);
+        @include transform(rotate(-360deg));
+      }
+    }
+  }
+  p {
+    color: #666666;
+    line-height: 30px;
+    margin-top:5px;
+    span{
+      color:#3a3a3a;
+    }
+  }
+  h4{
+    font-family:'open sans';
+    font-size:20px;
+  }
+}

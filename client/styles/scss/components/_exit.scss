@@ -1,0 +1,14 @@
+.exit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: black;
+  padding: 14px;
+  font-weight: 600;
+  @include box-sizing(border-box);
+  &:hover {
+    color: red;
+  }
+}

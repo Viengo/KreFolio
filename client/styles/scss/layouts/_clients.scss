@@ -1,0 +1,46 @@
+.clients {
+  margin: 50px 0 100px 0;
+  li {
+    width: 220px;
+    height: 100px;
+    background: url(../../images/icons/clients.png) no-repeat;
+    margin-right: 16px;
+    border: 1px solid #eeeeee;
+    @include box-sizing(border-box);
+    @include transition-property(transform);
+    @include transition-duration(300ms);
+    &:hover {
+      border: 1px solid #ec6659;
+      @include transform(scale(1.1));
+    }
+
+    &:nth-child(1) {
+      background-position: 0;
+      &:hover {
+        background-position: -220px;
+      }
+    }
+    &:nth-child(2) {
+      background-position: -440px;
+      &:hover {
+        background-position: -660px;
+      }
+    }
+    &:nth-child(3) {
+      background-position: -880px;
+      &:hover {
+        background-position: -1100px;
+      }
+    }
+    &:nth-child(4) {
+      background-position: -1320px;
+
+      &:hover {
+        background-position: -1540px;
+      }
+    }
+    a{
+      height:100px;
+    }
+  }
+}

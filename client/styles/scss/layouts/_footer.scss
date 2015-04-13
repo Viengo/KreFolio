@@ -1,0 +1,82 @@
+footer {
+  text-align: center;
+  margin:195px 0 100px;
+  p{
+    color:#b5b5b5;
+  }
+figure{
+  width:775px;
+  margin:0 auto 30px;
+    img{
+      margin-bottom:35px;
+    }
+}
+  ul {
+    margin-bottom:30px;
+    li {
+      width: 52px;
+      height: 52px;
+      margin-right: 10px;
+      @include transition-property(transform);
+      @include transition-duration(300ms);
+      &:hover{
+        @include transform(scale(1.05));
+      }
+      a {
+        height:52px;
+        background: url(../../images/icons/footer-icons.png) no-repeat;
+      }
+      &:nth-child(1) a {
+        background-position: -780px;
+        &:hover {
+          background-position: -728px;
+        }
+      }
+      &:nth-child(2) a {
+        background-position: -676px;
+        &:hover {
+          background-position: -624px;
+        }
+      }
+      &:nth-child(3) a {
+        background-position: -572px;
+        &:hover {
+          background-position: -520px;
+        }
+      }
+      &:nth-child(4) a {
+        background-position: -468px;
+        &:hover {
+          background-position: -416px;
+        }
+      }
+      &:nth-child(5) a {
+        background-position: -364px;
+        &:hover {
+          background-position: -312px;
+        }
+      }
+      &:nth-child(6) a {
+        background-position: -260px;
+        &:hover {
+          background-position: -208px;
+        }
+      }
+      &:nth-child(7) a {
+        background-position: -156px;
+        &:hover {
+          background-position: -104px;
+        }
+      }
+      &:nth-child(8) a {
+        background-position: -52px;
+        &:hover {
+          background-position: 0;
+        }
+      }
+    }
+
+  }
+}
+
+

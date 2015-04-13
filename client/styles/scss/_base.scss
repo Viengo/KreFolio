@@ -1,0 +1,31 @@
+body {
+
+  p, dt, dl{
+    font-family: 'Open sans';
+    font-size: 16px;
+    line-height:25px;
+  }
+  h1, h2, h3, h4, h5, a{
+    font-family: 'Campton', 'Light demo';
+  }
+a{
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  color:white;
+}
+  li{
+    display:inline-block;
+  }
+  b{
+    font-weight: 600;
+  }
+  h3{
+      font-size: 40px;
+      line-height:50px;
+      color:#3a3a3a;
+      span {
+        color: #e74c3c;
+      }
+  }
+}

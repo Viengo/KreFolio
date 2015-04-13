@@ -1,0 +1,18 @@
+.button{
+  display:inline-block;
+  height:66px;
+  vertical-align:middle;
+  font-size:20px;
+  font-weight:600;
+  line-height:66px;
+  border:2px solid white;
+  border-radius:2px;
+  @include box-sizing(border-box);
+  @include transition-property(all);
+  @include transition-duration(600ms);
+    &:hover{
+      @include transform(scale(1.1));
+      background:#c0392b;
+      border:none;
+    }
+}

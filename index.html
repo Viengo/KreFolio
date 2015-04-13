@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>KreFolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="client/styles/css/index.css">
+    <link rel="shortcut icon" href="client/images/icons/favicon.ico">
+    <script src="client/lib/royalslider/jquery-1.8.3.min.js"></script>
+    <script src="client/scripts/bgstretcher.js"></script>
+    <script src="client/scripts/main.js"></script>
+    <script src="client/lib/royalslider/jquery.royalslider.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+        {$('#slider').bgStretcher(
+                {images: ['client/images/backgrounds/slider-6.jpg', 'client/images/backgrounds/slider-5.jpg', 'client/images/backgrounds/slider-4.jpg', 'client/images/backgrounds/slider-3.jpg', 'client/images/backgrounds/slider-2.jpg', 'client/images/backgrounds/slider-1.jpg'],
+                    imageContainer: 'container',
+                    resizeProportionally: true,
+                    imageWidth: 1300,
+                    imageHeight: 500,
+                    maxWidth: 'auto',
+                    slideDirection: 'N',
+                    slideShowSpeed: 1000,
+                    transitionEffect: 'fade',
+                    sequenceMode: 'normal',
+                    buttonPrev: '.left',
+                    buttonNext: '.right',
+                    pagination: '.nav-slider',
+                    anchoring: 'center',
+                    anchoringImg: 'center'});
+        }});
+    </script>
+    <script>
+        jQuery(document).ready(function($) {
+            $(".royalSlider").royalSlider({
+                arrows: true,
+                arrowsNav: true,
+                keyboardNavEnabled: true
+
+            });
+        });
+    </script>
+
+</head>
+<body>
+<a class="fixed-menu" href="javascript:void(0)"></a>
+<main>
+<section class="slider" id="slider">
+    <a class="logotip" href="#"></a>
+    <a class="right" href="#"></a>
+    <a class="left" href="#"></a>
+
+    <div class="container">
+        <h1> This is <b>kreative</b><br/>
+            and we are <b>awesome</b></h1>
+
+        <p>Stop blending in & start leaving your mark on the web</p>
+        <ul class="button-suggest">
+            <li><a href="#portfolio">Our Work</a></li>
+            <li><a href="#about-us">About Us</a></li>
+        </ul>
+        <ul class="nav-slider">
+            <li class="active"><a href="#"> </a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+
+    </div>
+    <div class="menu-navigator">
+        <a class="menu-exit" href="#"><img src="client/images/icons/x.png" alt=""/></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-us">About us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="social-icons">
+                <ul>
+                    <li><a href="http://www.facebook.com/"></a></li>
+                    <li><a href="https://twitter.com/"></a></li>
+                    <li><a href="https://instagram.com/"></a></li>
+                    <li><a href="https://www.behance.net/"></a></li>
+                    <li><a href="https://dribbble.com/"></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="red-links">
+        <p>Like What You See? We’re Just Getting Started</p>
+        <a class="button" href="#portfolio">View Portfolio</a>
+    </div>
+</section>
+
+<section class="about-us" id="about-us">
+    <div class="container">
+        <h2 class="red-line"><b>About</b> <span> Us</span></h2>
+        <figure>
+            <img class="mac" src="client/images/pictures/Mac.png" alt="Digital Service"/>
+            <figcaption>
+                <h2>MEFOLIO, A FULL <b>SERVICE DIGITAL AGENCY</b> THAT HELP OUR CLIENTS EXPAND THEIR DIGITAL
+                    REACH</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+            </figcaption>
+        </figure>
+        <figure class="clearfix">
+            <img src="client/images/pictures/person-1.png" alt=""/>
+            <figcaption>
+                <dl>
+                    <dt id="1-dt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eismod</dt>
+                    <dd class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur.
+                    </dd>
+                    <dt id="2-dt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eismod</dt>
+                    <dd class="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur.
+                    </dd>
+                    <dt id="3-dt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eismod</dt>
+                    <dd class="third">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt
+                        ut labore
+                        et dolore magna aliqua.
+                        Ut enim ad minim veniam, Lorem ipsum dolor sit amet, consectetur.
+                    </dd>
+
+                </dl>
+            </figcaption>
+        </figure>
+    </div>
+</section>
+<section class="case-study">
+    <figure>
+        <img src="client/images/pictures/hero.png" alt=""/>
+        <figcaption>
+            <h3>We are revolutionizing marketing</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+                Ut enim ad minim veniam,</p>
+        </figcaption>
+    </figure>
+    <figure>
+        <img src="client/images/pictures/hero-2.png" alt=""/>
+        <figcaption>
+            <h3>Lorem ipsum dolor sit amet, consectetur.</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+                Ut enim ad minim veniam,</p>
+        </figcaption>
+    </figure>
+</section>
+<section class="why-choose" id="services">
+    <div class="container">
+        <h2 class="red-line">Who <b>Choose</b> <span> Us?</span></h2>
+        <ul class="our-worth">
+            <li>
+                <h4>Minimal Design</h4>
+
+                <p>Suspendisse velit ticol sodales, viverra sigirton vitae, accumsan orci mauris nec</p>
+            </li>
+            <li>
+                <h4>Love Our <b>Clients</b></h4>
+
+                <p>Suspendisse velit ticol sodales, viverra sigirton vitae, accumsan orci mauris nec</p>
+            </li>
+            <li>
+                <h4><b>Professional</b> Design</h4>
+
+                <p>Suspendisse velit ticol sodales, viverra sigirton vitae, accumsan orci mauris nec</p>
+            </li>
+            <li>
+                <h4><b>Mobile</b> App Design</h4>
+
+                <p>Suspendisse velit ticol sodales, viverra sigirton vitae, accumsan orci mauris nec</p>
+            </li>
+            <li>
+                <h4><b>Web</b> Development</h4>
+
+                <p>Suspendisse velit ticol sodales, viverra sigirton vitae, accumsan orci mauris nec</p>
+            </li>
+            <li>
+                <h4><b>Web</b> Design</h4>
+
+                <p>Suspendisse velit ticol sodales, viverra sigirton vitae, accumsan orci mauris nec</p>
+            </li>
+        </ul>
+        <h3 class="red-line">Our <b>Skills</b> <span>Are</span></h3>
+        <figure>
+            <img src="client/images/pictures/skills-hero.png" alt="Our Skills"/>
+            <figcaption>
+                <ul class="skill-bar">
+                    <li>
+                        <p>Print Design</p>
+
+                        <div><span>.</span></div>
+                    </li>
+                    <li>
+                        <p>Web Design</p>
+
+                        <div><span>.</span></div>
+                    </li>
+                    <li>
+                        <p>Mobile App Design</p>
+
+                        <div><span>.</span></div>
+                    </li>
+                    <li>
+                        <p>Creativity</p>
+
+                        <div><span>.</span></div>
+                    </li>
+                </ul>
+            </figcaption>
+        </figure>
+    </div>
+</section>
+<section class="process">
+    <div class="container">
+        <figure>
+            <img src="client/images/pictures/process-bar.png" alt=""/>
+            <figcaption>
+                <ul>
+                    <li>
+                        <h4>Discussion</h4>
+
+                        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutum pellesque
+                            iperdiet.Nulla lacinia iaculis nulla.</p>
+                    </li>
+                    <li>
+                        <h4>Get Idea</h4>
+
+                        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutum pellesque
+                            iperdiet.Nulla lacinia iaculis nulla.</p>
+                    </li>
+                    <li>
+                        <h4>Implementation</h4>
+
+                        <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutum pellesque
+                            iperdiet.Nulla lacinia iaculis nulla.</p>
+                    </li>
+                </ul>
+            </figcaption>
+        </figure>
+    </div>
+</section>
+<section id="team" class="team">
+    <div class="container">
+        <h2 class="red-line">Our <b>Awesome</b> <span>Team</span></h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim et minim veniam.</p>
+        <figure>
+            <img src="client/images/folio/jack-smith.png" alt=""/>
+            <figcaption>
+                <h4>JACK SMITH</h4>
+
+                <p>CEO/Founder</p>
+                <a class="view" href="#team">Learn more</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/john-doe.png" alt=""/>
+            <figcaption>
+                <h4>JOHN DOE</h4>
+
+                <p>Back-end Developer</p>
+                <a class="view" href="#team">Learn more</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/jack-sparrow.png" alt="img"/>
+            <figcaption>
+                <h4>JACK SPARROW</h4>
+
+                <p>Front-end Developer</p>
+                <a class="view" href="#team">Learn More</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/george-wyne.png" alt="img"/>
+            <figcaption>
+                <h4>GEORGE WYNE</h4>
+
+                <p>UI/UX Developer</p>
+                <a class="view" href="#team">Learn More</a></figcaption>
+        </figure>
+    </div>
+</section>
+    <section class="customer">
+        <h3>What Our <b>Customer</b> Said</h3>
+        <div class="royalSlider">
+            <div class="rsSlide">
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit..</p>
+                <img class="rsImg" src="client/images/clients/clients-1.jpg" alt=""/>
+            </div>
+            <div class="rsSlide">
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit..</p>
+                <img class="rsImg" src="client/images/clients/clients-2.jpg" alt=""/>
+            </div>
+            <div class="rsSlide">
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit..</p>
+                <img class="rsImg" src="client/images/clients/clients-3.jpg" alt=""/>
+            </div>
+            <div class="rsSlide">
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit..</p>
+                <img class="rsImg" src="client/images/clients/clients-4.jpg" alt=""/>
+            </div>
+    </div>
+    <div class="red-links">
+        <p>Hire us! We make you smile :)</p>
+        <a class="button" href="">Request a quote</a>
+
+        <b>or </b><a class="button" href="">Hire Us</a>
+    </div>
+</section>
+<section class="profiles">
+    <figure id="profile-1">
+        <img src="client/images/folio/jack-smith.png" alt=""/>
+        <figcaption>
+            <a class="exit" id="close" href="#team">X</a>
+            <h4>JACK SMITH</h4>
+            <span>CEO/Founder</span>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+        </figcaption>
+    </figure>
+</section>
+<section class="portfolios" id="portfolio">
+    <div class="container">
+        <h2 class="red-line">Our <span><b>Portfolios</b></span></h2>
+        <h4>Check out some of our largest and greatest projects.</h4>
+
+        <p>Sed ut perspiciatis omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
+        <ul class="sort-img-menu">
+            <li><a href="javascript:void(0)">Print media</a></li>
+            <li><a href="javascript:void(0)">Icon Design</a></li>
+            <li><a href="javascript:void(0)">Photography</a></li>
+            <li><a href="javascript:void(0)">Web Design</a></li>
+            <li><a href="javascript:void(0)">UI</a></li>
+        </ul>
+    </div>
+    <div class="figure-container">
+        <figure>
+            <img src="client/images/folio/folio-1.png" alt=""/>
+            <figcaption>
+                <p>Our Portfolios</p>
+                <a href="#">View Portfolio</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/folio-2.png" alt=""/>
+            <figcaption>
+                <p>Our Portfolios</p>
+                <a href="#">View Portfolio</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/folio-3.png" alt=""/>
+            <figcaption>
+                <p>Our Portfolios</p>
+                <a href="#">View Portfolio</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/folio-4.png" alt=""/>
+            <figcaption>
+                <p>Our Portfolios</p>
+                <a href="#">View Portfolio</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/folio-5.png" alt=""/>
+            <figcaption>
+                <p>Our Portfolios</p>
+                <a href="#">View Portfolio</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/folio-6.png" alt=""/>
+            <figcaption>
+                <p>Our Portfolios</p>
+                <a href="#">View Portfolio</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/folio-7.png" alt=""/>
+            <figcaption>
+                <p>Our Portfolios</p>
+                <a href="#">View Portfolio</a>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="client/images/folio/folio-8.png" alt=""/>
+            <figcaption>
+                <p>Our Portfolios</p>
+                <a href="#">View Portfolio</a>
+            </figcaption>
+        </figure>
+        <a class="load-more" href="#">Load More</a>
+
+        <p><span>Some awesome companies we've had pleasure to work with</span></p>
+        <ul class="clients">
+            <li><a href="https://dribbble.com/"></a></li>
+            <li><a href="http://themeforest.net/"></a></li>
+            <li><a href="https://instagram.com/"></a></li>
+            <li><a href="http://www.woothemes.com/woocommerce/"></a></li>
+        </ul>
+    </div>
+</section>
+<section class="we-are-here" id="contact">
+    <div class="container clearfix">
+        <figure>
+            <img src="client/images/icons/drop-cv.png" alt="Drop CV"/>
+            <figcaption>
+                <p>Drop Your CV</p>
+            </figcaption>
+        </figure>
+        <h3>WE ARE <span><b>HIRING<br/> CREATIVE</b></span> PEOPLES</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim minim veniam, quis nostud exercitation ullamco lserunt mollit
+            anim id est laborum.
+            Sed ut perspiciatus unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, aut
+            flevit,</p>
+
+    </div>
+</section>
+<section class="twitter">
+    <div class="container">
+        <p>Workshop: A Practical Introduction to Islamic Geometric Design on 11/4. Register soon, first come, first
+            served.
+            <b>http://docs.google.com/forms/d/.....</b></p>
+    </div>
+</section>
+<section id="contact" class="contact-us">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2723.959352013148!2d32.032652!3d46.942837999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5cb99a6527a87%3A0x27e0fa1ece2568c0!2z0J_QmtC40J4g0LjQvC4g0JvQtdC90LjQvdGB0LrQvtCz0L4g0LrQvtC80YHQvtC80L7Qu9Cw!5e0!3m2!1sru!2sua!4v1428663814778"
+            width="100%" height="600px" frameborder="0" style="border:0"></iframe>
+    <a href="#contact" class="send-form">
+        Have any <b>project</b>? Send a <b>message</b>
+    </a>
+
+    <div class="send-mail">
+        <a id="exit" class="exit" href="#contact">X</a>
+
+        <form action="/" method="post">
+            <input type="text" name="FirstName" placeholder="First name" required>
+            <input type="text" name="LastName" placeholder="Last Name" required>
+            <input type="email" name="Email" placeholder="Email Address" required>
+            <input type="text" name="Project" placeholder="Project name" required>
+            <textarea name="comment" id="area" placeholder="Your project details and description..."
+                      required></textarea>
+            <button id="send-button"></button>
+        </form>
+    </div>
+</section>
+</main>
+<footer>
+    <figure>
+        <img src="client/images/icons/kre-logo.png" alt=""/>
+        <figcaption>
+            <p>Lorem ipsum issimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a gellery of type and scrambled
+                it to
+                make a type specimen book</p>
+        </figcaption>
+    </figure>
+    <ul>
+        <li><a href="http://facebook.com/"> </a></li>
+        <li><a href="https://twitter.com/"> </a></li>
+        <li><a href="https://plus.google.com/"> </a></li>
+        <li><a href="https://instagram.com/"> </a></li>
+        <li><a href="https://www.linkedin.com/"> </a></li>
+        <li><a href="https://www.behance.net/"> </a></li>
+        <li><a href="https://dribbble.com/"> </a></li>
+        <li><a href="http://youtube.com/"> </a></li>
+    </ul>
+    <p><span>&#169;</span> Copyright 2015 KreFolio - All Rights reserved</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+.we-are-here{
+background:#f4f4f4;
+border-top:1px solid #e5e5e5;
+figure{
+  position:relative;
+  float:right;
+  margin:0 0 115px 80px;
+  width:285px;
+  height:265px;
+  border:1px solid #dbd8d8;
+  background:white;
+  @include box-sizing(border-box);
+  img{
+    margin:80px 105px 0 105px;
+  }
+  figcaption{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:261px;
+    height:241px;
+    text-align:center;
+    border:2px dashed #dbd8d8;
+    @include box-sizing(border-box);
+      p{
+      padding-top:150px;
+    }
+  }
+}
+  p{
+    padding-top:15px;
+    color:#666666;
+  }
+}

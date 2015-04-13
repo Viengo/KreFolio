@@ -1,0 +1,26 @@
+.twitter {
+  background: url(../../images/backgrounds/twitter-back.png) no-repeat fixed;
+  background-size: cover;
+
+  text-align:center;
+  p {
+    display:inline-block;
+
+    color: white;
+    &::before {
+      display:block;
+      margin:0 auto 20px;
+      content:'';
+      background:url(../../images/icons/bird-symbol.png) no-repeat;
+      width:100px;
+      height:82px;
+      @include transition-property(all);
+      @include transition-duration(1300ms);
+      cursor:pointer;
+    }
+    &:hover:before{
+        background:url(../../images/icons/bird-symbol-blue.png) no-repeat;
+        @include transform(rotate(360deg)scale(1.2));
+    }
+  }
+}

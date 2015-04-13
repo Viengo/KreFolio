@@ -1,0 +1,123 @@
+.why-choose {
+@include clearfix;
+  .our-worth {
+    margin-top: 80px;
+    width:100%;
+    li {
+      position: relative;
+      text-align: center;
+      width:300px;
+      margin:0 5px 40px 0;
+      &::before {
+        position: absolute;
+        top:0;
+        left: 110px;
+        content: '';
+        background: url(../../images/icons/skills.png) no-repeat;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        @include box-sizing(border-box);
+        @include transition-property(background-color);
+        @include transition-duration(800ms);
+        @include border-radius(2px);
+        border: 1px solid #eeeeee;
+      }
+      &:hover:before {
+        background-color: #ec6659;
+        border: none;
+      }
+      &:nth-child(1):before {
+          background-position: -405px;
+        }
+        &:nth-child(1):hover:before {
+          background-position: -322px;
+        }
+      &:nth-child(2):before {
+          background-position: -725px;
+        }
+        &:nth-child(2):hover:before {
+          background-position: -642px;
+        }
+      &:nth-child(3):before {
+          background-position: -485px;
+        }
+        &:nth-child(3):hover:before {
+          background-position: -565px;
+        }
+      &:nth-child(4):before {
+          background-position: -805px;
+        }
+        &:nth-child(4):hover:before {
+          background-position: -885px;
+        }
+      &:nth-child(5):before{
+          background-position: -3px;
+        }
+        &:nth-child(5):hover:before {
+          background-position: -85px;
+        }
+      &:nth-child(6):before {
+          background-position: -248px;
+        }
+        &:nth-child(6):hover:before {
+          background-position: -160px;
+        }
+    }
+    h4 {
+      margin:130px 0 0 0;
+      font-size: 25px;
+    }
+    p {
+      color: #a7a7a7;
+      line-height: 30px;
+      margin: 10px 0 40px 0;
+    }
+  }
+  figure{
+    img{
+      float:right;
+      margin: -80px -130px 0 0;
+    }
+    figcaption{
+      ul.skill-bar{
+        margin-top:60px;
+
+      li{
+        margin-bottom:20px;
+        p{
+          color:#202020;
+          line-height:35px;
+        }
+        div{
+          width:540px;
+          height:18px;
+          background:#f2f2f2;
+          border:1px solid #ec6659;
+          border-radius:3px ;
+          span{
+            display:block;
+            height:100%;
+            color:#ec6659;
+            background:#ec6659;
+          }
+
+        }
+      }
+        li:nth-child(1) span{
+          width:90%;
+        }
+        li:nth-child(2) span{
+          width:80%;
+        }
+        li:nth-child(3) span{
+          width:85%;
+        }
+        li:nth-child(4) span{
+          width:65%;
+        }
+      }
+    }
+  }
+}
+

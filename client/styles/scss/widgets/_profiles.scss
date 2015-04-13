@@ -1,0 +1,30 @@
+.profiles {
+
+  figure {
+    position: fixed;
+    top: 200px;
+    left: 15%;
+    display: none;
+    width: 900px;
+    height: 500px;
+    color: white;
+    background: rgba(237, 110, 97, 0.9);
+    img {
+      float: left;
+      width: 400px;
+      height: 100%;
+      margin-right: 40px;
+    }
+    figcaption {
+      padding: 40px 10px 40px 0;
+      h4 {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      p {
+        margin:40px 0 10px;
+      }
+    }
+  }
+}
