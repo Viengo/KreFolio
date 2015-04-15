@@ -1928,8 +1928,7 @@ body {
 
 /* line 1, ../scss/layouts/_why-choose.scss */
 .why-choose {
-  overflow: hidden;
-  *zoom: 1;
+  clear: both;
 }
 /* line 3, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth {
