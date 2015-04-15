@@ -1047,6 +1047,20 @@ img.rsImg {
   background: url(../../images/icons/blank.gif);
 }
 
+/* line 1, ../scss/fonts/campton-asap.scss */
+body {
+  @font-face {
+    font-family: "Campton";
+    src: url('/../fonts/../../../fonts/Campton-LightDEMO.otf') format('opentype');
+}
+
+  @font-face {
+    font-family: "Asap Bold";
+    src: url('/../fonts/../../../client/fonts/Asap-Bold.otf') format('opentype');
+}
+
+}
+
 /* line 3, ../scss/_base.scss */
 body p, body dt, body dl {
   font-family: 'Open sans';
@@ -1055,30 +1069,39 @@ body p, body dt, body dl {
 }
 /* line 8, ../scss/_base.scss */
 body h1, body h2, body h3, body h4, body h5, body a {
-  font-family: 'Campton', 'Light demo';
+  font-family: 'Campton';
 }
 /* line 11, ../scss/_base.scss */
+body img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+/* line 14, ../scss/_base.scss */
 body a {
   display: block;
   text-decoration: none;
   text-align: center;
   color: white;
 }
-/* line 17, ../scss/_base.scss */
+/* line 20, ../scss/_base.scss */
 body li {
   display: inline-block;
 }
-/* line 20, ../scss/_base.scss */
+/* line 23, ../scss/_base.scss */
 body b {
   font-weight: 600;
 }
-/* line 23, ../scss/_base.scss */
+/* line 26, ../scss/_base.scss */
 body h3 {
   font-size: 40px;
   line-height: 50px;
   color: #3a3a3a;
 }
-/* line 27, ../scss/_base.scss */
+/* line 30, ../scss/_base.scss */
 body h3 span {
   color: #e74c3c;
 }
@@ -1104,28 +1127,13 @@ body section .clearfix {
   *zoom: 1;
 }
 /* line 15, ../scss/_main.scss */
+body section.process .container {
+  padding-bottom: 85px;
+}
+/* line 20, ../scss/_main.scss */
 body section.twitter .container {
   width: 740px;
   padding: 120px 0 145px 0;
-}
-
-/* line 1, ../scss/components/_fonts-campton-asap.scss */
-body {
-  @font-face {
-    font-family: 'Campton', 'Bold demo';
-    src: local("Campton"), url(../../../fonts/Campton-BoldDEMO.otf);
-}
-
-  @font-face {
-    font-family: 'Campton', 'Light demo';
-    src: local("Campton"), url(../../../fonts/Campton-LightDEMO.otf);
-}
-
-  @font-face {
-    font-family: 'Asap', 'Bold';
-    src: local("Asap"), url(../../../fonts/Asap-Bold.otf);
-}
-
 }
 
 /* line 1, ../scss/components/_arrow.scss */
@@ -1245,8 +1253,14 @@ body {
   -moz-transition-duration: 600ms;
   -o-transition-duration: 600ms;
   transition-duration: 600ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
 }
-/* line 13, ../scss/components/_button.scss */
+/* line 14, ../scss/components/_button.scss */
 .button:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -1449,8 +1463,7 @@ body {
 
 /* line 1, ../scss/widgets/_process.scss */
 .process {
-  overflow: hidden;
-  *zoom: 1;
+  clear: both;
   background: url(../../images/backgrounds/process.png) no-repeat;
   background-size: cover;
   color: white;
@@ -1458,7 +1471,7 @@ body {
   font-size: 16px;
   line-height: 30px;
 }
-/* line 11, ../scss/widgets/_process.scss */
+/* line 10, ../scss/widgets/_process.scss */
 .process figure img {
   float: left;
   margin-right: 105px;
@@ -1575,18 +1588,18 @@ body {
   background-size: cover;
   text-align: center;
 }
-/* line 6, ../scss/widgets/_twitter.scss */
-.twitter p {
+/* line 5, ../scss/widgets/_twitter.scss */
+.twitter a {
   display: inline-block;
-  color: white;
+  width: 100px;
+  height: 82px;
+  margin: 0 auto 20px;
 }
 /* line 10, ../scss/widgets/_twitter.scss */
-.twitter p::before {
+.twitter a::before {
   display: block;
-  margin: 0 auto 20px;
   content: '';
   background: url(../../images/icons/bird-symbol.png) no-repeat;
-  width: 100px;
   height: 82px;
   -webkit-transition-property: all;
   -moz-transition-property: all;
@@ -1598,14 +1611,19 @@ body {
   transition-duration: 1300ms;
   cursor: pointer;
 }
-/* line 21, ../scss/widgets/_twitter.scss */
-.twitter p:hover:before {
+/* line 19, ../scss/widgets/_twitter.scss */
+.twitter a:hover:before {
   background: url(../../images/icons/bird-symbol-blue.png) no-repeat;
   -webkit-transform: rotate(360deg) scale(1.2);
   -moz-transform: rotate(360deg) scale(1.2);
   -ms-transform: rotate(360deg) scale(1.2);
   -o-transform: rotate(360deg) scale(1.2);
   transform: rotate(360deg) scale(1.2);
+}
+/* line 24, ../scss/widgets/_twitter.scss */
+.twitter p {
+  display: inline-block;
+  color: white;
 }
 
 /* line 1, ../scss/layouts/_menu-navigator.scss */
@@ -2087,17 +2105,18 @@ body {
 /* line 1, ../scss/layouts/_team.scss */
 .team {
   color: #666666;
+  clear: both;
 }
-/* line 3, ../scss/layouts/_team.scss */
+/* line 4, ../scss/layouts/_team.scss */
 .team p {
   margin-bottom: 35px;
 }
-/* line 6, ../scss/layouts/_team.scss */
+/* line 7, ../scss/layouts/_team.scss */
 .team .wrapper {
   font-size: 0;
   margin-bottom: 100px;
 }
-/* line 9, ../scss/layouts/_team.scss */
+/* line 10, ../scss/layouts/_team.scss */
 .team .wrapper figure {
   display: inline-block;
   position: relative;
@@ -2116,16 +2135,16 @@ body {
   border: 1px solid #ec6659;
   overflow: hidden;
 }
-/* line 20, ../scss/layouts/_team.scss */
+/* line 21, ../scss/layouts/_team.scss */
 .team .wrapper figure:last-child {
   margin-right: 0;
 }
-/* line 24, ../scss/layouts/_team.scss */
+/* line 25, ../scss/layouts/_team.scss */
 .team .wrapper figure:hover figcaption {
   height: 100%;
   opacity: 1;
 }
-/* line 29, ../scss/layouts/_team.scss */
+/* line 30, ../scss/layouts/_team.scss */
 .team .wrapper figure figcaption {
   width: 100%;
   position: absolute;
@@ -2144,17 +2163,17 @@ body {
   -o-transition-duration: 800ms;
   transition-duration: 800ms;
 }
-/* line 40, ../scss/layouts/_team.scss */
+/* line 41, ../scss/layouts/_team.scss */
 .team .wrapper figure figcaption h4 {
   font-size: 16px;
   font-weight: 600;
   margin: 100px 0 5px 0;
 }
-/* line 45, ../scss/layouts/_team.scss */
+/* line 46, ../scss/layouts/_team.scss */
 .team .wrapper figure figcaption p {
   margin: 0;
 }
-/* line 48, ../scss/layouts/_team.scss */
+/* line 49, ../scss/layouts/_team.scss */
 .team .wrapper figure figcaption a {
   margin-top: 95px;
   font-size: 16px;

@@ -1,0 +1,4 @@
+body {
+  @include font-face ("Campton", font-files("../../../fonts/Campton-LightDEMO.otf"));
+  @include font-face("Asap Bold", font-files("../../../client/fonts/Asap-Bold.otf"));
+}

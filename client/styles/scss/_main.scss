@@ -11,6 +11,11 @@ body{
     .clearfix{
       @include clearfix;
     }
+    &.process{
+      .container{
+        padding-bottom:85px;
+      }
+    }
     &.twitter{
       .container{
         width:740px;

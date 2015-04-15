@@ -10,6 +10,7 @@
   @include box-sizing(border-box);
   @include transition-property(all);
   @include transition-duration(600ms);
+  @include user-select(none);
     &:hover{
       @include transform(scale(1.1));
       background:#c0392b;

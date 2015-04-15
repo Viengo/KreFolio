@@ -6,7 +6,10 @@ body {
     line-height:25px;
   }
   h1, h2, h3, h4, h5, a{
-    font-family: 'Campton', 'Light demo';
+    font-family: 'Campton';
+  }
+  img{
+    @include user-select(none);
   }
 a{
   display:block;

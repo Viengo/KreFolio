@@ -7,11 +7,18 @@
 @import "lib/rs-default";
 @import "lib/rs";
 
+//mixins
+@import "mixins/placeholder";
+@import "mixins/user-select";
+
+//fonts
+@import "fonts/campton-asap.scss";
+
+//base
 @import "base";
 @import "main";
 
 //components
-@import "components/fonts-campton-asap";
 @import "components/arrow";
 @import "components/button";
 @import "components/h2-red-line";
