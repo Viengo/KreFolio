@@ -11,3 +11,31 @@
     background: url(../../images/icons/menu.png) no-repeat;
   }
 }
+.back-to-top{
+  position:fixed;
+  bottom: 20px;
+  right:100px;
+  z-index:99;
+  background:#f8b1b1;
+  @include transition-property(all);
+  @include transition-duration(500ms);
+  @include border-radius(50%);
+  &:hover{
+    background:#ec6659;
+    border:none;
+    @include transform(scale(1.1));
+  }
+  &::before {
+    display: block;
+    content: '';
+    width: 45px;
+    height: 45px;
+    background: url(../../images/icons/arrow.png) no-repeat center;
+    @include box-sizing(border-box);
+    @include transform(rotate(-90deg));
+  }
+  &:hover:before{
+      background: url(../../images/icons/arrow-act.png) no-repeat center;
+  }
+
+  }

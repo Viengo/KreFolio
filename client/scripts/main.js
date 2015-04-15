@@ -5,11 +5,10 @@ $(document).ready(function () {
     $(".fixed-menu, .menu-navigator").click(function () {
         $(".menu-navigator").fadeToggle(500);
         });
-    $("a").click(function () {
+    $(".menu-navigator>a").click(function () {
         $(".fixed-menu").fadeToggle(500);
     });
     });
-
 
 
 //DT Switcher
