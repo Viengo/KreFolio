@@ -1,6 +1,5 @@
 .slider {
   position: relative;
-  height:868px;
   background: url(../../images/backgrounds/slider-6.png) no-repeat;
   background-size:cover;
   color: #eeeeee;
@@ -31,7 +30,7 @@
 
 
   .button-suggest {
-    margin:45px 0 230px 0;
+    margin:45px 0 230px;
     li {
       width: 200px;
       height: 70px;
@@ -81,7 +80,7 @@
       }
     }
   }
-  .red-links{
+  .red-promotion{
     p{
       margin-right:125px;
     }

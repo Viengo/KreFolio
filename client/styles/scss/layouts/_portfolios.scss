@@ -8,9 +8,10 @@
   }
 
   .sort-img-menu {
+    margin:35px 0 50px;
     li {
       position: relative;
-      margin: 35px 10px 50px 0;
+      margin-right:10px;
       &:first-child:before {
         display: inline-block;
         vertical-align: middle;

@@ -43,7 +43,27 @@
 
 </head>
 <body>
+<!-- Кнопка вызова нафигации по сайту, фиксирована относительно body -->
 <a class="fixed-menu" href="javascript:void(0)"></a>
+<nav class="menu-navigator">
+    <a class="menu-exit" href="#"><img src="client/images/icons/x.png" alt=""/></a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about-us">About us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="social-icons">
+            <ul>
+                <li><a href="http://www.facebook.com/"></a></li>
+                <li><a href="https://twitter.com/"></a></li>
+                <li><a href="https://instagram.com/"></a></li>
+                <li><a href="https://www.behance.net/"></a></li>
+                <li><a href="https://dribbble.com/"></a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
 <main>
 <section class="slider" id="slider">
     <a class="logotip" href="#"></a>
@@ -70,26 +90,7 @@
         </ul>
 
     </div>
-    <div class="menu-navigator">
-        <a class="menu-exit" href="#"><img src="client/images/icons/x.png" alt=""/></a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about-us">About us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="social-icons">
-                <ul>
-                    <li><a href="http://www.facebook.com/"></a></li>
-                    <li><a href="https://twitter.com/"></a></li>
-                    <li><a href="https://instagram.com/"></a></li>
-                    <li><a href="https://www.behance.net/"></a></li>
-                    <li><a href="https://dribbble.com/"></a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <div class="red-links">
+    <div class="red-promotion">
         <p>Like What You See? We’re Just Getting Started</p>
         <a class="button" href="#portfolio">View Portfolio</a>
     </div>
@@ -265,6 +266,7 @@
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
             labore et dolore magna aliqua. Ut enim et minim veniam.</p>
+        <div class="wrapper">
         <figure>
             <img src="client/images/folio/jack-smith.png" alt=""/>
             <figcaption>
@@ -300,6 +302,7 @@
                 <p>UI/UX Developer</p>
                 <a class="view" href="#team">Learn More</a></figcaption>
         </figure>
+        </div>
     </div>
 </section>
     <section class="customer">
@@ -322,7 +325,7 @@
                 <img class="rsImg" src="client/images/clients/clients-4.jpg" alt=""/>
             </div>
     </div>
-    <div class="red-links">
+    <div class="red-promotion">
         <p>Hire us! We make you smile :)</p>
         <a class="button" href="">Request a quote</a>
 
@@ -355,13 +358,15 @@
         <p>Sed ut perspiciatis omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
             aperiam,
             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
-        <ul class="sort-img-menu">
+        <nav class="sort-img-menu">
+        <ul>
             <li><a href="javascript:void(0)">Print media</a></li>
             <li><a href="javascript:void(0)">Icon Design</a></li>
             <li><a href="javascript:void(0)">Photography</a></li>
             <li><a href="javascript:void(0)">Web Design</a></li>
             <li><a href="javascript:void(0)">UI</a></li>
         </ul>
+        </nav>
     </div>
     <div class="figure-container">
         <figure>
