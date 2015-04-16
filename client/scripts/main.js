@@ -2,11 +2,11 @@
 
 $(document).ready(function () {
     'use strict';
-    $(".fixed-menu, .menu-navigator").click(function () {
-        $(".menu-navigator").fadeToggle(500);
+    $(".fixed-menu").click(function () {
+        $(".menu-navigator, .menu-exit").fadeToggle(500);
         });
-    $(".menu-navigator>a").click(function () {
-        $(".fixed-menu").fadeToggle(500);
+    $(".menu-navigator a, .menu-exit").click(function () {
+        $(".menu-navigator, .menu-exit").fadeToggle(500);
     });
     });
 

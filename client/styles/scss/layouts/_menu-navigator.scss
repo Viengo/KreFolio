@@ -10,8 +10,17 @@
   background: rgba(231, 76, 60, 0.9);
   text-transform: uppercase;
   a.menu-exit{
+    display:none;
     float:right;
     margin:45px 195px 0 0;
+    width:27px;
+    height:29px;
+    &::before{
+      display:block;
+      content:'';
+      height:29px;
+      background:url(../../images/icons/x.png)
+    }
   }
   ul {
     margin: 250px auto;
