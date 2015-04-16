@@ -11,6 +11,7 @@
   @include transition-property(all);
   @include transition-duration(600ms);
   @include user-select(none);
+  cursor:pointer;
     &:hover{
       @include transform(scale(1.1));
       background:#c0392b;

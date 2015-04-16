@@ -1,13 +1,11 @@
 .why-choose {
   clear:both;
   .our-worth {
-    margin-top: 80px;
-    width:100%;
     li {
       position: relative;
       text-align: center;
-      width:300px;
-      margin:0 5px 40px 0;
+      width:312px;
+      margin-bottom:40px;
       &::before {
         position: absolute;
         top:0;
@@ -69,6 +67,7 @@
       font-size: 25px;
     }
     p {
+      padding:0 5px;
       color: #a7a7a7;
       line-height: 30px;
       margin: 10px 0 40px 0;

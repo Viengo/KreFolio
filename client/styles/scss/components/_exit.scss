@@ -6,6 +6,8 @@
   height: 40px;
   background: black;
   padding: 14px;
+  font-size:16px;
+  font-family:'open sans';
   font-weight: 600;
   @include box-sizing(border-box);
   &:hover {

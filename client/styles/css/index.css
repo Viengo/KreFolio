@@ -1138,7 +1138,7 @@ body section.process .container {
 /* line 20, ../scss/_main.scss */
 body section.twitter .container {
   width: 740px;
-  padding: 120px 0 145px 0;
+  padding: 120px 0 145px;
 }
 
 /* line 1, ../scss/components/_arrow.scss */
@@ -1264,8 +1264,9 @@ body section.twitter .container {
   -ms-user-select: none;
   user-select: none;
   cursor: default;
+  cursor: pointer;
 }
-/* line 14, ../scss/components/_button.scss */
+/* line 15, ../scss/components/_button.scss */
 .button:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -1306,12 +1307,14 @@ body section.twitter .container {
   height: 40px;
   background: black;
   padding: 14px;
+  font-size: 16px;
+  font-family: 'open sans';
   font-weight: 600;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 11, ../scss/components/_exit.scss */
+/* line 13, ../scss/components/_exit.scss */
 .exit:hover {
   color: red;
 }
@@ -1963,19 +1966,14 @@ body section.twitter .container {
 .why-choose {
   clear: both;
 }
-/* line 3, ../scss/layouts/_why-choose.scss */
-.why-choose .our-worth {
-  margin-top: 80px;
-  width: 100%;
-}
-/* line 6, ../scss/layouts/_why-choose.scss */
+/* line 4, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li {
   position: relative;
   text-align: center;
-  width: 300px;
-  margin: 0 5px 40px 0;
+  width: 312px;
+  margin-bottom: 40px;
 }
-/* line 11, ../scss/layouts/_why-choose.scss */
+/* line 9, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li::before {
   position: absolute;
   top: 0;
@@ -2003,89 +2001,90 @@ body section.twitter .container {
   border-radius: 2px;
   border: 1px solid #eeeeee;
 }
-/* line 26, ../scss/layouts/_why-choose.scss */
+/* line 24, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:hover:before {
   background-color: #ec6659;
   border: none;
 }
-/* line 30, ../scss/layouts/_why-choose.scss */
+/* line 28, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(1):before {
   background-position: -405px;
 }
-/* line 33, ../scss/layouts/_why-choose.scss */
+/* line 31, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(1):hover:before {
   background-position: -322px;
 }
-/* line 36, ../scss/layouts/_why-choose.scss */
+/* line 34, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(2):before {
   background-position: -725px;
 }
-/* line 39, ../scss/layouts/_why-choose.scss */
+/* line 37, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(2):hover:before {
   background-position: -642px;
 }
-/* line 42, ../scss/layouts/_why-choose.scss */
+/* line 40, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(3):before {
   background-position: -485px;
 }
-/* line 45, ../scss/layouts/_why-choose.scss */
+/* line 43, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(3):hover:before {
   background-position: -565px;
 }
-/* line 48, ../scss/layouts/_why-choose.scss */
+/* line 46, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(4):before {
   background-position: -805px;
 }
-/* line 51, ../scss/layouts/_why-choose.scss */
+/* line 49, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(4):hover:before {
   background-position: -885px;
 }
-/* line 54, ../scss/layouts/_why-choose.scss */
+/* line 52, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(5):before {
   background-position: -3px;
 }
-/* line 57, ../scss/layouts/_why-choose.scss */
+/* line 55, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(5):hover:before {
   background-position: -85px;
 }
-/* line 60, ../scss/layouts/_why-choose.scss */
+/* line 58, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(6):before {
   background-position: -248px;
 }
-/* line 63, ../scss/layouts/_why-choose.scss */
+/* line 61, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(6):hover:before {
   background-position: -160px;
 }
-/* line 67, ../scss/layouts/_why-choose.scss */
+/* line 65, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth h4 {
   margin: 130px 0 0 0;
   font-size: 25px;
 }
-/* line 71, ../scss/layouts/_why-choose.scss */
+/* line 69, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth p {
+  padding: 0 5px;
   color: #a7a7a7;
   line-height: 30px;
   margin: 10px 0 40px 0;
 }
-/* line 78, ../scss/layouts/_why-choose.scss */
+/* line 77, ../scss/layouts/_why-choose.scss */
 .why-choose figure img {
   float: right;
   margin: -80px -130px 0 0;
 }
-/* line 83, ../scss/layouts/_why-choose.scss */
+/* line 82, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar {
   margin-top: 60px;
 }
-/* line 86, ../scss/layouts/_why-choose.scss */
+/* line 85, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li {
   margin-bottom: 20px;
 }
-/* line 88, ../scss/layouts/_why-choose.scss */
+/* line 87, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li p {
   color: #202020;
   line-height: 35px;
 }
-/* line 92, ../scss/layouts/_why-choose.scss */
+/* line 91, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li div {
   width: 540px;
   height: 18px;
@@ -2093,26 +2092,26 @@ body section.twitter .container {
   border: 1px solid #ec6659;
   border-radius: 3px;
 }
-/* line 98, ../scss/layouts/_why-choose.scss */
+/* line 97, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li div span {
   display: block;
   height: 100%;
   color: #ec6659;
   background: #ec6659;
 }
-/* line 107, ../scss/layouts/_why-choose.scss */
+/* line 106, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li:nth-child(1) span {
   width: 90%;
 }
-/* line 110, ../scss/layouts/_why-choose.scss */
+/* line 109, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li:nth-child(2) span {
   width: 80%;
 }
-/* line 113, ../scss/layouts/_why-choose.scss */
+/* line 112, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li:nth-child(3) span {
   width: 85%;
 }
-/* line 116, ../scss/layouts/_why-choose.scss */
+/* line 115, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li:nth-child(4) span {
   width: 65%;
 }
@@ -2630,10 +2629,11 @@ body section.twitter .container {
   position: fixed;
   width: 780px;
   height: 500px;
+  font-size: 0;
   background: white;
   text-transform: uppercase;
 }
-/* line 49, ../scss/layouts/_contact-us.scss */
+/* line 50, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail::before {
   position: absolute;
   display: block;
@@ -2652,12 +2652,12 @@ body section.twitter .container {
   -o-transition-duration: 1000ms;
   transition-duration: 1000ms;
 }
-/* line 62, ../scss/layouts/_contact-us.scss */
+/* line 63, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form {
   padding: 60px;
   text-align: center;
 }
-/* line 65, ../scss/layouts/_contact-us.scss */
+/* line 66, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form input {
   display: inline-block;
   width: 300px;
@@ -2669,26 +2669,27 @@ body section.twitter .container {
   box-sizing: border-box;
   border: 1px solid #dfdfdf;
 }
-/* line 73, ../scss/layouts/_contact-us.scss */
+/* line 74, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form input:focus {
   border: 1px solid #e74c3c;
 }
-/* line 77, ../scss/layouts/_contact-us.scss */
+/* line 78, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form textarea {
   margin: 12px 12px 0 12px;
   width: 628px;
   height: 155px;
   padding: 18px;
   overflow: hidden;
+  resize: none;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 84, ../scss/layouts/_contact-us.scss */
+/* line 86, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form textarea:focus {
   border: 1px solid #e74c3c;
 }
-/* line 88, ../scss/layouts/_contact-us.scss */
+/* line 90, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form button {
   width: 628px;
   height: 45px;
