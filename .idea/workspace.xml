@@ -23,21 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="459" column="37" selection-start="18700" selection-end="18700" vertical-scroll-proportion="0.12244898" vertical-offset="6795" max-vertical-offset="7755">
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_twitter.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_twitter.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="68" selection-start="356" selection-end="356" vertical-scroll-proportion="-3.6734693" vertical-offset="0" max-vertical-offset="510">
+            <state line="8" column="18" selection-start="224" selection-end="224" vertical-scroll-proportion="-2.4489796" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -46,7 +35,16 @@
       <file leaf-file-name="campton-asap.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/styles/scss/fonts/campton-asap.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="4" column="1" selection-start="391" selection-end="391" vertical-scroll-proportion="-1.2244898" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_contact-us.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_contact-us.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="9" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.5020747" vertical-offset="747" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -55,16 +53,16 @@
       <file leaf-file-name="_process.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_process.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="203" selection-end="203" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="825">
+            <state line="7" column="20" selection-start="212" selection-end="212" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_base.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/styles/scss/_base.scss">
+      <file leaf-file-name="_slider.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_slider.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.4489796" vertical-offset="0" max-vertical-offset="585">
+            <state line="11" column="3" selection-start="280" selection-end="280" vertical-scroll-proportion="10.040816" vertical-offset="657" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -73,7 +71,7 @@
       <file leaf-file-name="_placeholder.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/styles/scss/mixins/_placeholder.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="1" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.5306122" vertical-offset="0" max-vertical-offset="165">
+            <state line="5" column="1" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -91,7 +89,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+            <state line="7" column="23" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -109,7 +107,7 @@
       <file leaf-file-name="_team.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_team.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="945">
+            <state line="33" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="-8.32653" vertical-offset="87" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -125,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/styles/css/index.css" />
         <option value="$PROJECT_DIR$/client/scripts/menu-s.js" />
         <option value="$PROJECT_DIR$/client/styles/scss/widgets/_figure-focus.scss" />
         <option value="$PROJECT_DIR$/focus.html" />
@@ -157,34 +154,35 @@
         <option value="$PROJECT_DIR$/client/styles/scss/layouts/_about-us.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/layouts/_portfolios.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/layouts/_we-are-here.scss" />
-        <option value="$PROJECT_DIR$/client/styles/scss/layouts/_contact-us.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/layouts/_footer.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/layouts/_menu-navigator.scss" />
-        <option value="$PROJECT_DIR$/client/styles/scss/layouts/_slider.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/widgets/_customer.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/widgets/_red-promotion.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/components/_arrow.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/components/_fixed-menu.scss" />
         <option value="$PROJECT_DIR$/client/scripts/main.js" />
         <option value="$PROJECT_DIR$/client/styles/scss/layouts/_why-choose.scss" />
-        <option value="$PROJECT_DIR$/client/styles/scss/layouts/_team.scss" />
-        <option value="$PROJECT_DIR$/client/styles/scss/widgets/_process.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/_main.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/components/_button.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/client/styles/scss/widgets/_twitter.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/components/_fonts-campton-asap.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/index.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/client/styles/scss/widgets/_twitter.scss" />
+        <option value="$PROJECT_DIR$/client/styles/scss/widgets/_process.scss" />
         <option value="$PROJECT_DIR$/client/styles/scss/_base.scss" />
+        <option value="$PROJECT_DIR$/client/styles/scss/layouts/_slider.scss" />
+        <option value="$PROJECT_DIR$/client/styles/scss/layouts/_team.scss" />
+        <option value="$PROJECT_DIR$/client/styles/scss/fonts/campton-asap.scss" />
+        <option value="$PROJECT_DIR$/client/styles/scss/layouts/_contact-us.scss" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -212,7 +210,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,6 +265,110 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krefolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krefolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mixins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krefolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krefolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,6 +458,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,11 +508,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19194704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19415334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -470,9 +572,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_customer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="16" column="5" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/_base.scss">
@@ -605,107 +705,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/lib/_bgstretcher.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="1" column="20" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/components/_h2-red-line.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="1" column="22" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_about-us.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="347" selection-end="347" vertical-scroll-proportion="0.32097003" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
+        <state line="15" column="26" selection-start="347" selection-end="347" vertical-scroll-proportion="0.32097003" vertical-offset="0" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_portfolios.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="222" selection-end="222" vertical-scroll-proportion="-3.9795918" vertical-offset="0" max-vertical-offset="2580">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_contact-us.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="1515">
-          <folding />
-        </state>
+        <state line="13" column="23" selection-start="222" selection-end="222" vertical-scroll-proportion="-3.9795918" vertical-offset="0" max-vertical-offset="2580" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_menu-navigator.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="838" selection-end="838" vertical-scroll-proportion="-8.571428" vertical-offset="135" max-vertical-offset="1395">
-          <folding />
-        </state>
+        <state line="37" column="29" selection-start="838" selection-end="838" vertical-scroll-proportion="-8.571428" vertical-offset="135" max-vertical-offset="1395" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_case-study.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="151" selection-end="151" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="7" column="17" selection-start="151" selection-end="151" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_profiles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="190" selection-end="190" vertical-scroll-proportion="-3.0612245" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
+        <state line="10" column="40" selection-start="190" selection-end="190" vertical-scroll-proportion="-3.0612245" vertical-offset="0" max-vertical-offset="525" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_customer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="364" selection-end="364" vertical-scroll-proportion="0.38516405" vertical-offset="0" max-vertical-offset="701">
-          <folding />
-        </state>
+        <state line="18" column="3" selection-start="364" selection-end="364" vertical-scroll-proportion="0.38516405" vertical-offset="0" max-vertical-offset="701" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_red-promotion.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="238" selection-end="238" vertical-scroll-proportion="0.25677603" vertical-offset="0" max-vertical-offset="701">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_slider.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="5" selection-start="1616" selection-end="1616" vertical-scroll-proportion="1.5560166" vertical-offset="0" max-vertical-offset="1395">
-          <folding />
-        </state>
+        <state line="12" column="26" selection-start="238" selection-end="238" vertical-scroll-proportion="0.25677603" vertical-offset="0" max-vertical-offset="701" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_we-are-here.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="520" selection-end="520" vertical-scroll-proportion="-7.9591837" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="26" column="5" selection-start="520" selection-end="520" vertical-scroll-proportion="-7.9591837" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/components/_arrow.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="11" selection-start="523" selection-end="627" vertical-scroll-proportion="-6.122449" vertical-offset="0" max-vertical-offset="855">
-          <folding />
-        </state>
+        <state line="20" column="11" selection-start="523" selection-end="627" vertical-scroll-proportion="-6.122449" vertical-offset="0" max-vertical-offset="855" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/components/_fixed-menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="269" selection-end="269" vertical-scroll-proportion="-4.591837" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="15" column="15" selection-start="269" selection-end="269" vertical-scroll-proportion="-4.591837" vertical-offset="0" max-vertical-offset="705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/scripts/main.js">
@@ -715,30 +770,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_why-choose.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.30612245" vertical-offset="0" max-vertical-offset="1935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_team.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="39" selection-end="39" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="1" selection-start="385" selection-end="385" vertical-scroll-proportion="0.5611511" vertical-offset="0" max-vertical-offset="695">
-          <folding />
-        </state>
+        <state line="26" column="1" selection-start="385" selection-end="385" vertical-scroll-proportion="0.5611511" vertical-offset="0" max-vertical-offset="695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/mixins/_placeholder.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.5306122" vertical-offset="0" max-vertical-offset="165">
+        <state line="5" column="1" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
@@ -750,54 +789,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_twitter.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="68" selection-start="356" selection-end="356" vertical-scroll-proportion="-3.6734693" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/fonts/campton-asap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/styles/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="341" selection-end="341" vertical-scroll-proportion="0.41493776" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/components/_button.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="317" selection-end="317" vertical-scroll-proportion="0.24896266" vertical-offset="0" max-vertical-offset="723">
+        <state line="12" column="29" selection-start="317" selection-end="317" vertical-scroll-proportion="0.24896266" vertical-offset="0" max-vertical-offset="723" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="22" selection-start="2800" selection-end="2800" vertical-scroll-proportion="-20.0" vertical-offset="540" max-vertical-offset="7755">
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_twitter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="224" selection-end="224" vertical-scroll-proportion="-2.4489796" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/widgets/_process.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="203" selection-end="203" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="825">
+        <state line="7" column="20" selection-start="212" selection-end="212" vertical-scroll-proportion="-2.142857" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="280" selection-end="280" vertical-scroll-proportion="10.040816" vertical-offset="657" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_why-choose.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="13" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.30612245" vertical-offset="0" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="9" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_team.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="-8.32653" vertical-offset="87" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="341" selection-end="341" vertical-scroll-proportion="-5.265306" vertical-offset="42" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/styles/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="150" selection-end="150" vertical-scroll-proportion="-2.4489796" vertical-offset="0" max-vertical-offset="585">
+        <state line="33" column="1" selection-start="498" selection-end="498" vertical-scroll-proportion="-10.102041" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/fonts/campton-asap.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="459" column="37" selection-start="18700" selection-end="18700" vertical-scroll-proportion="0.12244898" vertical-offset="6795" max-vertical-offset="7755">
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#section#11;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="4" column="1" selection-start="391" selection-end="391" vertical-scroll-proportion="-1.2244898" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/styles/scss/layouts/_contact-us.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="9" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.5020747" vertical-offset="747" max-vertical-offset="1530">
+          <folding />
         </state>
       </provider>
     </entry>

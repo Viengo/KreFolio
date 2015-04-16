@@ -1,7 +1,7 @@
 .slider {
   position: relative;
   background: url(../../images/backgrounds/slider-6.png) no-repeat;
-  background-size:cover;
+  background-size: cover;
   color: #eeeeee;
   text-align: center;
   h1 {
@@ -12,25 +12,24 @@
   }
 
   p {
-    font-family: 'Campton', 'light demo';
+    font-family: "Campton", "LightDemo";
     font-size: 22px;
   }
   .logotip {
-      padding-top: 45px;
-      float: left;
-      margin-left:195px;
-    &:after{
+    padding-top: 45px;
+    float: left;
+    margin-left: 195px;
+    &:after {
       display: block;
       content: '';
       width: 180px;
       height: 30px;
       background: url(../../images/icons/creative.png) no-repeat;
     }
-    }
-
+  }
 
   .button-suggest {
-    margin:45px 0 230px;
+    margin: 45px 0 230px;
     li {
       width: 200px;
       height: 70px;
@@ -63,26 +62,26 @@
     }
 
   }
-  .nav-slider{
-    text-align:center;
-    margin-bottom:40px;
-    li{
-      width:40px;
-      height:4px;
-      margin-right:5px;
-      background:white;
-      &.showPage{
-        background:#e74c3c;
-    }
-      a{
-        height:4px;
-        opacity:0;
+  .nav-slider {
+    text-align: center;
+    margin-bottom: 40px;
+    li {
+      width: 40px;
+      height: 4px;
+      margin-right: 5px;
+      background: white;
+      &.showPage {
+        background: #e74c3c;
+      }
+      a {
+        height: 4px;
+        opacity: 0;
       }
     }
   }
-  .red-promotion{
-    p{
-      margin-right:125px;
+  .red-promotion {
+    p {
+      margin-right: 125px;
     }
   }
 }

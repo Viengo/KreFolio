@@ -1,48 +1,48 @@
-.process{
-  clear:both;
-  background:url(../../images/backgrounds/process.png) no-repeat;
-  background-size:cover;
-  color:white;
-  font-family:'Campton','BoldDemo';
-  font-size:16px;
-  line-height:30px;
-  figure{
-    img{
-      float:left;
-      margin-right:105px;
-      margin-bottom:85px;
+.process {
+  clear: both;
+  background: url(../../images/backgrounds/process.png) no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Campton', 'BoldDemo';
+  font-size: 16px;
+  line-height: 30px;
+  figure {
+    img {
+      float: left;
+      margin-right: 105px;
+      margin-bottom: 85px;
     }
-    figcaption{
+    figcaption {
 
-    li{
-      display:block;
-      position:relative;
-      margin-bottom:35px;
-      &::before{
-        content:'';
-        position:absolute;
-        top:-20px;
-        right:460px;
-        background:url(../../images/icons/skills.png) no-repeat;
-        width:80px;
-        height:80px;
-      }
-        &:nth-child(1):before{
-          background-position:-960px;
+      li {
+        display: block;
+        position: relative;
+        margin-bottom: 35px;
+        &::before {
+          content: '';
+          position: absolute;
+          top: -20px;
+          right: 460px;
+          background: url(../../images/icons/skills.png) no-repeat;
+          width: 80px;
+          height: 80px;
         }
-        &:nth-child(2):before{
-          background-position:-320px;
+        &:nth-child(1):before {
+          background-position: -960px;
         }
-        &:nth-child(3):before{
-          background-position:-560px;
+        &:nth-child(2):before {
+          background-position: -320px;
+        }
+        &:nth-child(3):before {
+          background-position: -560px;
         }
       }
-      h4{
-        font-size:25px;
-        font-weight:600;
+      h4 {
+        font-size: 25px;
+        font-weight: 600;
       }
-      p{
-        opacity:0.9;
+      p {
+        opacity: 0.9;
       }
     }
 

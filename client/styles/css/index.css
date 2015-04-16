@@ -1050,13 +1050,18 @@ img.rsImg {
 /* line 1, ../scss/fonts/campton-asap.scss */
 body {
   @font-face {
-    font-family: "Campton";
-    src: url('/../fonts/../../../fonts/Campton-LightDEMO.otf') format('opentype');
+    font-family: "Campton Bold";
+    src: url('/../fonts/../../../fonts/Campton-BoldDEMO.otf') format('opentype'), url('/../fonts/../../../fonts/Campton-BoldDEMO.ttf') format('truetype');
+}
+
+  @font-face {
+    font-family: "Campton Light";
+    src: url('/../fonts/../../../fonts/Campton-LightDEMO.otf') format('opentype'), url('/../fonts/../../../fonts/Campton-LightDEMO.ttf') format('truetype');
 }
 
   @font-face {
     font-family: "Asap Bold";
-    src: url('/../fonts/../../../client/fonts/Asap-Bold.otf') format('opentype');
+    src: url('/../fonts/../../../client/fonts/Asap-Bold.otf') format('opentype'), url('/../fonts/../../../client/fonts/Asap-Bold.ttf') format('truetype');
 }
 
 }
@@ -1069,7 +1074,7 @@ body p, body dt, body dl {
 }
 /* line 8, ../scss/_base.scss */
 body h1, body h2, body h3, body h4, body h5, body a {
-  font-family: 'Campton';
+  font-family: "Campton", "BoldDemo";
 }
 /* line 11, ../scss/_base.scss */
 body img {
@@ -1467,7 +1472,7 @@ body section.twitter .container {
   background: url(../../images/backgrounds/process.png) no-repeat;
   background-size: cover;
   color: white;
-  font-family: 'Campton','BoldDemo';
+  font-family: 'Campton', 'BoldDemo';
   font-size: 16px;
   line-height: 30px;
 }
@@ -1593,7 +1598,7 @@ body section.twitter .container {
   display: inline-block;
   width: 100px;
   height: 82px;
-  margin: 0 auto 20px;
+  margin-bottom: 20px;
 }
 /* line 10, ../scss/widgets/_twitter.scss */
 .twitter a::before {
@@ -1772,7 +1777,7 @@ body section.twitter .container {
 }
 /* line 14, ../scss/layouts/_slider.scss */
 .slider p {
-  font-family: 'Campton', 'light demo';
+  font-family: "Campton", "LightDemo";
   font-size: 22px;
 }
 /* line 18, ../scss/layouts/_slider.scss */
@@ -1789,11 +1794,11 @@ body section.twitter .container {
   height: 30px;
   background: url(../../images/icons/creative.png) no-repeat;
 }
-/* line 32, ../scss/layouts/_slider.scss */
+/* line 31, ../scss/layouts/_slider.scss */
 .slider .button-suggest {
   margin: 45px 0 230px;
 }
-/* line 34, ../scss/layouts/_slider.scss */
+/* line 33, ../scss/layouts/_slider.scss */
 .slider .button-suggest li {
   width: 200px;
   height: 70px;
@@ -1801,7 +1806,7 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 38, ../scss/layouts/_slider.scss */
+/* line 37, ../scss/layouts/_slider.scss */
 .slider .button-suggest li:first-child {
   border: 2px solid white;
   border-radius: 2px;
@@ -1814,7 +1819,7 @@ body section.twitter .container {
   -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 43, ../scss/layouts/_slider.scss */
+/* line 42, ../scss/layouts/_slider.scss */
 .slider .button-suggest li:first-child:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -1822,7 +1827,7 @@ body section.twitter .container {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 47, ../scss/layouts/_slider.scss */
+/* line 46, ../scss/layouts/_slider.scss */
 .slider .button-suggest li:last-child {
   margin-left: 30px;
   background-color: #e74c3c;
@@ -1837,7 +1842,7 @@ body section.twitter .container {
   -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 54, ../scss/layouts/_slider.scss */
+/* line 53, ../scss/layouts/_slider.scss */
 .slider .button-suggest li:last-child:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -1845,34 +1850,34 @@ body section.twitter .container {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 58, ../scss/layouts/_slider.scss */
+/* line 57, ../scss/layouts/_slider.scss */
 .slider .button-suggest li a {
   font-size: 20px;
   font-weight: 600;
   line-height: 70px;
 }
-/* line 66, ../scss/layouts/_slider.scss */
+/* line 65, ../scss/layouts/_slider.scss */
 .slider .nav-slider {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 69, ../scss/layouts/_slider.scss */
+/* line 68, ../scss/layouts/_slider.scss */
 .slider .nav-slider li {
   width: 40px;
   height: 4px;
   margin-right: 5px;
   background: white;
 }
-/* line 74, ../scss/layouts/_slider.scss */
+/* line 73, ../scss/layouts/_slider.scss */
 .slider .nav-slider li.showPage {
   background: #e74c3c;
 }
-/* line 77, ../scss/layouts/_slider.scss */
+/* line 76, ../scss/layouts/_slider.scss */
 .slider .nav-slider li a {
   height: 4px;
   opacity: 0;
 }
-/* line 84, ../scss/layouts/_slider.scss */
+/* line 83, ../scss/layouts/_slider.scss */
 .slider .red-promotion p {
   margin-right: 125px;
 }
@@ -2149,7 +2154,7 @@ body section.twitter .container {
   width: 100%;
   position: absolute;
   text-align: center;
-  font-family: 'open sans';
+  font-family: 'Open sans';
   height: 0;
   bottom: 0;
   opacity: 0;
@@ -2664,15 +2669,16 @@ body section.twitter .container {
   width: 628px;
   height: 155px;
   padding: 18px;
+  overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 83, ../scss/layouts/_contact-us.scss */
+/* line 84, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form textarea:focus {
   border: 1px solid #e74c3c;
 }
-/* line 87, ../scss/layouts/_contact-us.scss */
+/* line 88, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form button {
   width: 628px;
   height: 45px;

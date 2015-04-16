@@ -79,6 +79,7 @@
         width: 628px;
         height: 155px;
         padding: 18px;
+        overflow: hidden;
         @include box-sizing(border-box);
         &:focus {
           border: 1px solid #e74c3c;
