@@ -3,6 +3,9 @@
   top: 45px;
   right:195px;
   z-index:99;
+  @media (min-width: 768px) and (max-width:945px){
+    right:20px;
+  }
   &:after{
     display: block;
     content: '';
@@ -20,6 +23,9 @@
   @include transition-property(all);
   @include transition-duration(500ms);
   @include border-radius(50%);
+  @media (min-width: 768px) and (max-width:945px){
+    right:10px;
+  }
   &:hover{
     background:#ec6659;
     border:none;

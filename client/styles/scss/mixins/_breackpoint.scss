@@ -1,0 +1,19 @@
+/*
+Bootsrap media query
+*/
+@mixin breackpoint($point) {
+ @if $point == large {
+  @media (max-width: 1299px) {
+    @content;
+  }
+  } @else if $point == small {
+    @media (min-width: 768px) and (max-width:945px) {
+      @content;
+    }
+  } @else if $point == extra-small {
+    @media (max-width:767px) {
+      @content;
+    }
+  }
+}
+

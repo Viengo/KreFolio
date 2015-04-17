@@ -3,10 +3,16 @@ footer {
   margin:95px 0 100px;
   p{
     color:#b5b5b5;
+    @media (min-width: 768px) and (max-width:945px) {
+      padding:0 15px;
+    }
   }
 figure{
   width:775px;
   margin:0 auto 30px;
+  @media (min-width: 768px) and (max-width:945px) {
+    width:740px;
+  }
     img{
       margin-bottom:35px;
     }

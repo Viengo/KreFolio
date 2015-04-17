@@ -4,6 +4,9 @@
   background-size: cover;
   text-align: center;
   color: white;
+  @media (min-width: 768px) and (max-width:945px){
+    max-width:768px;
+  }
   h3 {
     padding-top: 100px;
     font-size: 40px;
@@ -14,14 +17,11 @@
       background: rgba(23, 23, 23, 0.8);
       padding: 35px;
       @include border-radius(10px);
+      @include box-sizing(border-box);
+      @media (min-width: 768px) and (max-width:945px){
+       padding:15px;
+      }
     }
 
-  }
-  .red-promotion {
-    text-align: center;
-    p {
-      line-height: 150px;
-      margin: 0 180px 0 0;
-    }
   }
 }

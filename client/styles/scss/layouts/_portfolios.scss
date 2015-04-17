@@ -1,7 +1,22 @@
 .portfolios {
   text-align: center;
+  .red-promotion {
+    text-align: center;
+    p {
+      color:white;
+      line-height: 150px;
+      margin: 0 180px 0 0;
+      @media (max-width: 1299px) {
+        margin:0 220px;
+      }
+    }
+    .button{
+      @media (max-width: 1299px){
+        margin-bottom:10px;
+      }
+    }
+  }
   .red-line {
-    margin-bottom: 80px;
     &::before {
       left: 415px;
     }
@@ -36,8 +51,13 @@
   .figure-container {
     width:1300px;
     margin:0 auto;
+    font-size:0;
+    text-align:center;
+    @media (max-width: 1299px){
+      width: 768px;
+    }
     figure {
-      float:left;
+      display:inline-block;
       position: relative;
       width: 325px;
       height: 325px;
@@ -129,6 +149,7 @@
     color:#666666;
     line-height:50px;
     font-family: 'Campton', 'Bold Demo';
+    font-size:16px;
     @include box-sizing(border-box);
     border:1px solid #666666;
     border-radius:1px;
@@ -145,7 +166,7 @@
     }
     &:hover{
       @include transform(scale(1.1));
-      &:before{
+      &::before{
         @include transition-property(all);
         @include transition-duration(2000ms);
         @include transform(rotate(-360deg));

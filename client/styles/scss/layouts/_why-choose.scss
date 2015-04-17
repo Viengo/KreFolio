@@ -1,8 +1,14 @@
 .why-choose {
   clear:both;
+  .red-line{
+    @media (min-width: 768px) and (max-width:945px) {
+      text-align:center;
+    }
+  }
   .our-worth {
+    text-align:center;
     li {
-      position: relative;
+      position:relative;
       text-align: center;
       width:312px;
       margin-bottom:40px;
@@ -74,15 +80,23 @@
     }
   }
   figure{
+    @media (min-width: 768px) and (max-width:945px) {
+      text-align:center;
+    }
     img{
       float:right;
       margin: -80px -130px 0 0;
+      @media (min-width: 768px) and (max-width:945px) {
+        float:none;
+        margin:0;
+      }
     }
     figcaption{
       ul.skill-bar{
         margin-top:60px;
 
       li{
+        position:relative;
         margin-bottom:20px;
         p{
           color:#202020;

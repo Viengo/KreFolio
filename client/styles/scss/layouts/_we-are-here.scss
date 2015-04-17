@@ -1,15 +1,22 @@
 .we-are-here{
 background:#f4f4f4;
 border-top:1px solid #e5e5e5;
+  @media (min-width: 768px) and (max-width:945px) {
+    text-align:center;
+  }
 figure{
   position:relative;
   float:right;
-  margin:0 0 115px 80px;
+  margin:-100px 0 115px 80px;
   width:285px;
   height:265px;
   border:1px solid #dbd8d8;
   background:white;
   @include box-sizing(border-box);
+  @media (min-width: 768px) and (max-width:945px) {
+   float:none;
+    margin:20px auto;
+  }
   img{
     margin:80px 105px 0 105px;
   }
@@ -32,5 +39,9 @@ figure{
   }
   p{
     color:#666666;
+    @media (min-width: 768px) and (max-width:945px){
+      margin-bottom:50px;
+      padding:0 10px;
+    }
   }
 }

@@ -1,12 +1,16 @@
 body{
   position:relative;
   section{
-    min-width:946px;
+    //min-width:946px;
     margin: 0 auto;
   .container{
     width:946px;
     margin:0 auto;
     padding-top:100px;
+
+    @media (min-width: 768px) and (max-width:945px) {
+      width:100%;
+    }
   }
     .clearfix{
       @include clearfix;

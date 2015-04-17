@@ -11,6 +11,9 @@
       content: "";
       background:url(../../images/icons/line.png) no-repeat;
     }
+  @media (min-width: 768px) and (max-width:945px){
+    padding:0 10px;
+  }
     span {
       color: #e74c3c;
     }

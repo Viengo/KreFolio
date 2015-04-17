@@ -42,5 +42,8 @@
     a{
       height:100px;
     }
+    @media (max-width: 1299px) {
+      margin-top:16px;
+    }
   }
 }

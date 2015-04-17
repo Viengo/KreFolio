@@ -1,12 +1,22 @@
 .about-us {
   background: url(../../images/backgrounds/about-us-back.png) no-repeat;
   background-size: cover;
+  @media (min-width: 768px) and (max-width:945px) {
+    text-align:center;
+  }
   figure {
+    @media (min-width: 768px) and (max-width:945px){
+      padding: 0 10px;
+    }
     img {
       float: right;
       margin-top:15px;
       &.mac {
         margin:-130px -100px 0 25px;
+        @media (min-width: 768px) and (max-width:945px) {
+          margin:0;
+          float:none;
+        }
       }
     }
     figcaption {
@@ -15,6 +25,9 @@
         font-size: 40px;
         line-height: 50px;
         color: black;
+        @media (min-width: 768px) and (max-width:945px){
+          font-size:28px;
+        }
       }
       p {
         line-height: 35px;

@@ -9,6 +9,10 @@
     height: 500px;
     color: white;
     background: rgba(237, 110, 97, 0.9);
+    @media (min-width: 768px) and (max-width:945px){
+      width:740px;
+      left:5px;
+    }
     img {
       float: left;
       width: 400px;
