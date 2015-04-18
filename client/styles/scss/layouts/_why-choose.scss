@@ -1,20 +1,18 @@
 .why-choose {
-  clear:both;
-  .red-line{
-    @media (min-width: 768px) and (max-width:945px) {
-      text-align:center;
-    }
+  clear: both;
+  @include breackpoint(extra-small){
+    text-align:center;
   }
   .our-worth {
-    text-align:center;
+    text-align: center;
     li {
-      position:relative;
+      position: relative;
       text-align: center;
-      width:312px;
-      margin-bottom:40px;
+      width: 312px;
+      margin-bottom: 40px;
       &::before {
         position: absolute;
-        top:0;
+        top: 0;
         left: 110px;
         content: '';
         background: url(../../images/icons/skills.png) no-repeat;
@@ -32,102 +30,116 @@
         border: none;
       }
       &:nth-child(1):before {
-          background-position: -405px;
-        }
-        &:nth-child(1):hover:before {
-          background-position: -322px;
-        }
+        background-position: -405px;
+      }
+      &:nth-child(1):hover:before {
+        background-position: -322px;
+      }
       &:nth-child(2):before {
-          background-position: -725px;
-        }
-        &:nth-child(2):hover:before {
-          background-position: -642px;
-        }
+        background-position: -725px;
+      }
+      &:nth-child(2):hover:before {
+        background-position: -642px;
+      }
       &:nth-child(3):before {
-          background-position: -485px;
-        }
-        &:nth-child(3):hover:before {
-          background-position: -565px;
-        }
+        background-position: -485px;
+      }
+      &:nth-child(3):hover:before {
+        background-position: -565px;
+      }
       &:nth-child(4):before {
-          background-position: -805px;
-        }
-        &:nth-child(4):hover:before {
-          background-position: -885px;
-        }
-      &:nth-child(5):before{
-          background-position: -3px;
-        }
-        &:nth-child(5):hover:before {
-          background-position: -85px;
-        }
+        background-position: -805px;
+      }
+      &:nth-child(4):hover:before {
+        background-position: -885px;
+      }
+      &:nth-child(5):before {
+        background-position: -3px;
+      }
+      &:nth-child(5):hover:before {
+        background-position: -85px;
+      }
       &:nth-child(6):before {
-          background-position: -248px;
-        }
-        &:nth-child(6):hover:before {
-          background-position: -160px;
-        }
+        background-position: -248px;
+      }
+      &:nth-child(6):hover:before {
+        background-position: -160px;
+      }
     }
     h4 {
-      margin:130px 0 0 0;
+      margin: 130px 0 0 0;
       font-size: 25px;
     }
     p {
-      padding:0 5px;
+      padding: 0 5px;
       color: #a7a7a7;
       line-height: 30px;
       margin: 10px 0 40px 0;
     }
   }
-  figure{
-    @media (min-width: 768px) and (max-width:945px) {
-      text-align:center;
+  figure {
+    @include breackpoint(large) {
+      text-align: center;
     }
-    img{
-      float:right;
+    img {
+      float: right;
       margin: -80px -130px 0 0;
-      @media (min-width: 768px) and (max-width:945px) {
-        float:none;
-        margin:0;
+      @include breackpoint(large) {
+        float: none;
+        margin: 0;
+      }
+      @include breackpoint(extra-small) {
+        float: none;
+        margin: 0;
+        width: 450px;
+        height: 405px;
       }
     }
-    figcaption{
-      ul.skill-bar{
-        margin-top:60px;
-
-      li{
-        position:relative;
-        margin-bottom:20px;
-        p{
-          color:#202020;
-          line-height:35px;
-        }
-        div{
-          width:540px;
-          height:18px;
-          background:#f2f2f2;
-          border:1px solid #ec6659;
-          border-radius:3px ;
-          span{
-            display:block;
-            height:100%;
-            color:#ec6659;
-            background:#ec6659;
-          }
-
-        }
+    figcaption {
+      @include breackpoint(extra-small) {
+        margin: 0 auto;
       }
-        li:nth-child(1) span{
-          width:90%;
+      ul.skill-bar {
+        margin-top: 60px;
+        li {
+          position: relative;
+          margin-bottom: 20px;
+          @include breackpoint(extra-small) {
+            margin: 0 auto 20px;
+          }
+          p {
+            color: #202020;
+            line-height: 35px;
+          }
+          div {
+            width: 540px;
+            height: 18px;
+            background: #f2f2f2;
+            border: 1px solid #ec6659;
+            border-radius: 3px;
+            @include breackpoint(extra-small) {
+              width: 450px;
+            }
+            span {
+              display: block;
+              height: 100%;
+              color: #ec6659;
+              background: #ec6659;
+            }
+
+          }
         }
-        li:nth-child(2) span{
-          width:80%;
+        li:nth-child(1) span {
+          width: 90%;
         }
-        li:nth-child(3) span{
-          width:85%;
+        li:nth-child(2) span {
+          width: 80%;
         }
-        li:nth-child(4) span{
-          width:65%;
+        li:nth-child(3) span {
+          width: 85%;
+        }
+        li:nth-child(4) span {
+          width: 65%;
         }
       }
     }

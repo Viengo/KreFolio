@@ -1,19 +1,31 @@
 .about-us {
   background: url(../../images/backgrounds/about-us-back.png) no-repeat;
   background-size: cover;
-  @media (min-width: 768px) and (max-width:945px) {
+  @include breackpoint (large) {
+    text-align:center;
+  }
+  @include breackpoint (extra-small){
     text-align:center;
   }
   figure {
-    @media (min-width: 768px) and (max-width:945px){
+    @include breackpoint (large){
       padding: 0 10px;
+    }
+    @include breackpoint (extra-small){
+      padding:0 5px;
     }
     img {
       float: right;
       margin-top:15px;
+      @include breackpoint (large){
+        float:none;
+      }
+      @include breackpoint (extra-small){
+        display:none;
+      }
       &.mac {
         margin:-130px -100px 0 25px;
-        @media (min-width: 768px) and (max-width:945px) {
+        @include breackpoint (large){
           margin:0;
           float:none;
         }
@@ -25,8 +37,11 @@
         font-size: 40px;
         line-height: 50px;
         color: black;
-        @media (min-width: 768px) and (max-width:945px){
+        @include breackpoint (small){
           font-size:28px;
+        }
+        @include breackpoint (extra-small){
+          font-size:24px;
         }
       }
       p {
@@ -36,6 +51,13 @@
       dl {
         margin-top: 50px;
         width: 600px;
+        @include breackpoint (large){
+          margin:0 auto;
+        }
+        @include breackpoint (extra-small){
+          width:450px;
+          margin:15px auto 0;
+        }
         dt {
           background: #eeeeee;
           margin-bottom:8px;

@@ -1128,31 +1128,50 @@ body {
 body section {
   margin: 0 auto;
 }
-/* line 6, ../scss/_main.scss */
+@media (max-width: 767px) {
+  /* line 3, ../scss/_main.scss */
+  body section {
+    min-width: 450px;
+  }
+}
+/* line 8, ../scss/_main.scss */
 body section .container {
   width: 946px;
   margin: 0 auto;
   padding-top: 100px;
 }
 @media (min-width: 768px) and (max-width: 945px) {
-  /* line 6, ../scss/_main.scss */
+  /* line 8, ../scss/_main.scss */
   body section .container {
     width: 100%;
   }
 }
-/* line 15, ../scss/_main.scss */
+@media (max-width: 767px) {
+  /* line 8, ../scss/_main.scss */
+  body section .container {
+    width: 100%;
+    min-width: 450px;
+  }
+}
+/* line 21, ../scss/_main.scss */
 body section .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 19, ../scss/_main.scss */
+/* line 25, ../scss/_main.scss */
 body section.process .container {
   padding-bottom: 85px;
 }
-/* line 24, ../scss/_main.scss */
+/* line 30, ../scss/_main.scss */
 body section.twitter .container {
   width: 740px;
   padding: 120px 0 145px;
+}
+@media (max-width: 767px) {
+  /* line 30, ../scss/_main.scss */
+  body section.twitter .container {
+    width: 450px;
+  }
 }
 
 /* line 1, ../scss/components/_arrow.scss */
@@ -1166,7 +1185,14 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 8, ../scss/components/_arrow.scss */
+@media (max-width: 767px) {
+  /* line 1, ../scss/components/_arrow.scss */
+  .left {
+    top: 600px;
+    left: 5px;
+  }
+}
+/* line 12, ../scss/components/_arrow.scss */
 .left:before {
   display: block;
   content: '';
@@ -1193,7 +1219,7 @@ body section.twitter .container {
   -o-transition-duration: 300ms;
   transition-duration: 300ms;
 }
-/* line 20, ../scss/components/_arrow.scss */
+/* line 24, ../scss/components/_arrow.scss */
 .left:hover:before {
   background: url(../../images/icons/arrow-act.png) no-repeat center;
   border: 2px solid white;
@@ -1204,7 +1230,7 @@ body section.twitter .container {
   transform: rotate(180deg) scale(1.1);
 }
 
-/* line 26, ../scss/components/_arrow.scss */
+/* line 30, ../scss/components/_arrow.scss */
 .right {
   position: absolute;
   width: 45px;
@@ -1215,7 +1241,14 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 33, ../scss/components/_arrow.scss */
+@media (max-width: 767px) {
+  /* line 30, ../scss/components/_arrow.scss */
+  .right {
+    top: 600px;
+    right: 5px;
+  }
+}
+/* line 41, ../scss/components/_arrow.scss */
 .right::before {
   display: block;
   content: '';
@@ -1240,7 +1273,7 @@ body section.twitter .container {
   -o-transition-duration: 300ms;
   transition-duration: 300ms;
 }
-/* line 45, ../scss/components/_arrow.scss */
+/* line 53, ../scss/components/_arrow.scss */
 .right:hover:before {
   background: url(../../images/icons/arrow-act.png) no-repeat center;
   border: 2px solid white;
@@ -1307,10 +1340,10 @@ body section.twitter .container {
   content: "";
   background: url(../../images/icons/line.png) no-repeat;
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 1299px) {
   /* line 1, ../scss/components/_h2-red-line.scss */
   .red-line {
-    padding: 0 10px;
+    text-align: center;
   }
 }
 /* line 17, ../scss/components/_h2-red-line.scss */
@@ -1352,7 +1385,13 @@ body section.twitter .container {
     right: 20px;
   }
 }
-/* line 9, ../scss/components/_fixed-menu.scss */
+@media (max-width: 767px) {
+  /* line 1, ../scss/components/_fixed-menu.scss */
+  .fixed-menu {
+    right: 5px;
+  }
+}
+/* line 12, ../scss/components/_fixed-menu.scss */
 .fixed-menu:after {
   display: block;
   content: '';
@@ -1361,7 +1400,7 @@ body section.twitter .container {
   background: url(../../images/icons/menu.png) no-repeat;
 }
 
-/* line 17, ../scss/components/_fixed-menu.scss */
+/* line 20, ../scss/components/_fixed-menu.scss */
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -1383,12 +1422,18 @@ body section.twitter .container {
   border-radius: 50%;
 }
 @media (min-width: 768px) and (max-width: 945px) {
-  /* line 17, ../scss/components/_fixed-menu.scss */
+  /* line 20, ../scss/components/_fixed-menu.scss */
   .back-to-top {
     right: 10px;
   }
 }
-/* line 29, ../scss/components/_fixed-menu.scss */
+@media (max-width: 767px) {
+  /* line 20, ../scss/components/_fixed-menu.scss */
+  .back-to-top {
+    right: 5px;
+  }
+}
+/* line 35, ../scss/components/_fixed-menu.scss */
 .back-to-top:hover {
   background: #ec6659;
   border: none;
@@ -1398,7 +1443,7 @@ body section.twitter .container {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 34, ../scss/components/_fixed-menu.scss */
+/* line 40, ../scss/components/_fixed-menu.scss */
 .back-to-top::before {
   display: block;
   content: '';
@@ -1414,7 +1459,7 @@ body section.twitter .container {
   -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
-/* line 43, ../scss/components/_fixed-menu.scss */
+/* line 49, ../scss/components/_fixed-menu.scss */
 .back-to-top:hover:before {
   background: url(../../images/icons/arrow-act.png) no-repeat center;
 }
@@ -1431,10 +1476,22 @@ body section.twitter .container {
   font-size: 22px;
   line-height: 100px;
 }
-/* line 11, ../scss/widgets/_red-promotion.scss */
+@media (max-width: 767px) {
+  /* line 4, ../scss/widgets/_red-promotion.scss */
+  .red-promotion p {
+    line-height: 50px;
+  }
+}
+/* line 14, ../scss/widgets/_red-promotion.scss */
 .red-promotion a.button {
   width: 196px;
   margin: 0 10px 0 10px;
+}
+@media (max-width: 767px) {
+  /* line 14, ../scss/widgets/_red-promotion.scss */
+  .red-promotion a.button {
+    margin: 10px;
+  }
 }
 
 /* line 1, ../scss/widgets/_case-study.scss */
@@ -1450,60 +1507,87 @@ body section.twitter .container {
     margin: 0 auto;
   }
 }
-@media (max-width: 1299px) {
+@media (max-width: 767px) {
   /* line 1, ../scss/widgets/_case-study.scss */
   .case-study {
-    max-width: 945px;
+    width: 450px;
+    height: 600px;
   }
 }
-/* line 12, ../scss/widgets/_case-study.scss */
+/* line 13, ../scss/widgets/_case-study.scss */
 .case-study figure {
   position: relative;
   width: 50%;
   height: 401px;
 }
 @media (max-width: 1299px) {
-  /* line 12, ../scss/widgets/_case-study.scss */
+  /* line 13, ../scss/widgets/_case-study.scss */
   .case-study figure {
     width: 100%;
   }
 }
-/* line 19, ../scss/widgets/_case-study.scss */
+@media (max-width: 767px) {
+  /* line 13, ../scss/widgets/_case-study.scss */
+  .case-study figure {
+    height: 300px;
+  }
+}
+/* line 23, ../scss/widgets/_case-study.scss */
 .case-study figure:first-child {
   float: left;
   text-align: right;
 }
-/* line 22, ../scss/widgets/_case-study.scss */
+/* line 26, ../scss/widgets/_case-study.scss */
 .case-study figure:first-child figcaption {
   padding: 80px 55px 80px 150px;
 }
 @media (max-width: 1299px) {
-  /* line 22, ../scss/widgets/_case-study.scss */
+  /* line 26, ../scss/widgets/_case-study.scss */
   .case-study figure:first-child figcaption {
     padding: 80px 55px 80px 50px;
   }
 }
-/* line 29, ../scss/widgets/_case-study.scss */
+@media (max-width: 767px) {
+  /* line 26, ../scss/widgets/_case-study.scss */
+  .case-study figure:first-child figcaption {
+    padding: 15px;
+    text-align: center;
+  }
+}
+/* line 37, ../scss/widgets/_case-study.scss */
 .case-study figure:last-child {
   float: right;
   text-align: left;
 }
-/* line 32, ../scss/widgets/_case-study.scss */
+/* line 40, ../scss/widgets/_case-study.scss */
 .case-study figure:last-child figcaption {
   padding: 80px 150px 80px 55px;
 }
 @media (max-width: 1299px) {
-  /* line 32, ../scss/widgets/_case-study.scss */
+  /* line 40, ../scss/widgets/_case-study.scss */
   .case-study figure:last-child figcaption {
     padding: 80px 50px 80px 55px;
   }
 }
-/* line 39, ../scss/widgets/_case-study.scss */
+@media (max-width: 767px) {
+  /* line 40, ../scss/widgets/_case-study.scss */
+  .case-study figure:last-child figcaption {
+    padding: 15px;
+    text-align: center;
+  }
+}
+/* line 51, ../scss/widgets/_case-study.scss */
 .case-study figure img {
   width: 100%;
   height: 401px;
 }
-/* line 43, ../scss/widgets/_case-study.scss */
+@media (max-width: 767px) {
+  /* line 51, ../scss/widgets/_case-study.scss */
+  .case-study figure img {
+    height: 100%;
+  }
+}
+/* line 58, ../scss/widgets/_case-study.scss */
 .case-study figure figcaption {
   position: absolute;
   top: 0;
@@ -1523,24 +1607,24 @@ body section.twitter .container {
   -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 53, ../scss/widgets/_case-study.scss */
+@media (max-width: 767px) {
+  /* line 58, ../scss/widgets/_case-study.scss */
+  .case-study figure figcaption {
+    height: 300px;
+  }
+}
+/* line 71, ../scss/widgets/_case-study.scss */
 .case-study figure figcaption:hover {
   background: rgba(224, 92, 78, 0.9);
   cursor: pointer;
 }
-/* line 57, ../scss/widgets/_case-study.scss */
+/* line 75, ../scss/widgets/_case-study.scss */
 .case-study figure figcaption h3 {
   color: white;
   font-size: 30px;
   font-weight: 600;
   line-height: 45px;
   margin-bottom: 20px;
-}
-@media (max-width: 1299px) {
-  /* line 12, ../scss/widgets/_case-study.scss */
-  .case-study figure {
-    width: 100%;
-  }
 }
 
 /* line 1, ../scss/widgets/_process.scss */
@@ -1559,33 +1643,53 @@ body section.twitter .container {
     text-align: center;
   }
 }
-/* line 13, ../scss/widgets/_process.scss */
+@media (max-width: 767px) {
+  /* line 9, ../scss/widgets/_process.scss */
+  .process figure {
+    text-align: center;
+  }
+}
+/* line 16, ../scss/widgets/_process.scss */
 .process figure img {
   float: left;
   margin-right: 105px;
   margin-bottom: 85px;
 }
 @media (min-width: 768px) and (max-width: 945px) {
-  /* line 13, ../scss/widgets/_process.scss */
+  /* line 16, ../scss/widgets/_process.scss */
   .process figure img {
     float: none;
     margin-right: 0;
   }
 }
-/* line 24, ../scss/widgets/_process.scss */
+@media (max-width: 767px) {
+  /* line 16, ../scss/widgets/_process.scss */
+  .process figure img {
+    float: none;
+    margin-right: 0;
+  }
+}
+/* line 31, ../scss/widgets/_process.scss */
 .process figure figcaption li {
   display: block;
   position: relative;
   margin-bottom: 35px;
 }
 @media (min-width: 768px) and (max-width: 945px) {
-  /* line 24, ../scss/widgets/_process.scss */
+  /* line 31, ../scss/widgets/_process.scss */
   .process figure figcaption li {
     padding: 0 10px;
     margin-bottom: 50px;
   }
 }
-/* line 32, ../scss/widgets/_process.scss */
+@media (max-width: 767px) {
+  /* line 31, ../scss/widgets/_process.scss */
+  .process figure figcaption li {
+    padding: 0 10px;
+    margin-bottom: 50px;
+  }
+}
+/* line 43, ../scss/widgets/_process.scss */
 .process figure figcaption li::before {
   content: '';
   position: absolute;
@@ -1596,36 +1700,43 @@ body section.twitter .container {
   height: 80px;
 }
 @media (min-width: 768px) and (max-width: 945px) {
-  /* line 32, ../scss/widgets/_process.scss */
+  /* line 43, ../scss/widgets/_process.scss */
   .process figure figcaption li::before {
     top: -60px;
     right: 45%;
   }
 }
-/* line 45, ../scss/widgets/_process.scss */
+@media (max-width: 767px) {
+  /* line 43, ../scss/widgets/_process.scss */
+  .process figure figcaption li::before {
+    top: -60px;
+    right: 45%;
+  }
+}
+/* line 60, ../scss/widgets/_process.scss */
 .process figure figcaption li:nth-child(1):before {
   background-position: -960px;
 }
-/* line 48, ../scss/widgets/_process.scss */
+/* line 63, ../scss/widgets/_process.scss */
 .process figure figcaption li:nth-child(2):before {
   background-position: -320px;
 }
-/* line 51, ../scss/widgets/_process.scss */
+/* line 66, ../scss/widgets/_process.scss */
 .process figure figcaption li:nth-child(3):before {
   background-position: -560px;
 }
-/* line 55, ../scss/widgets/_process.scss */
+/* line 70, ../scss/widgets/_process.scss */
 .process figure figcaption h4 {
   font-size: 25px;
   font-weight: 600;
 }
 @media (min-width: 768px) and (max-width: 945px) {
-  /* line 55, ../scss/widgets/_process.scss */
+  /* line 70, ../scss/widgets/_process.scss */
   .process figure figcaption h4 {
     margin-bottom: 10px;
   }
 }
-/* line 62, ../scss/widgets/_process.scss */
+/* line 77, ../scss/widgets/_process.scss */
 .process figure figcaption p {
   opacity: 0.9;
 }
@@ -1641,31 +1752,48 @@ body section.twitter .container {
   color: white;
   background: rgba(237, 110, 97, 0.9);
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 1299px) {
   /* line 3, ../scss/widgets/_profiles.scss */
   .profiles figure {
-    width: 740px;
+    text-align: center;
+    width: 700px;
+    left: 5%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 3, ../scss/widgets/_profiles.scss */
+  .profiles figure {
+    width: 450px;
+    height: 600px;
     left: 5px;
   }
 }
-/* line 16, ../scss/widgets/_profiles.scss */
+/* line 22, ../scss/widgets/_profiles.scss */
 .profiles figure img {
   float: left;
   width: 400px;
   height: 100%;
   margin-right: 40px;
 }
-/* line 22, ../scss/widgets/_profiles.scss */
+@media (max-width: 767px) {
+  /* line 22, ../scss/widgets/_profiles.scss */
+  .profiles figure img {
+    float: none;
+    width: 150px;
+    height: 200px;
+  }
+}
+/* line 33, ../scss/widgets/_profiles.scss */
 .profiles figure figcaption {
   padding: 40px 10px 40px 0;
 }
-/* line 24, ../scss/widgets/_profiles.scss */
+/* line 35, ../scss/widgets/_profiles.scss */
 .profiles figure figcaption h4 {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 600;
 }
-/* line 29, ../scss/widgets/_profiles.scss */
+/* line 40, ../scss/widgets/_profiles.scss */
 .profiles figure figcaption p {
   margin: 40px 0 10px;
 }
@@ -1678,10 +1806,10 @@ body section.twitter .container {
   text-align: center;
   color: white;
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 767px) {
   /* line 1, ../scss/widgets/_customer.scss */
   .customer {
-    max-width: 768px;
+    display: none;
   }
 }
 /* line 10, ../scss/widgets/_customer.scss */
@@ -1703,7 +1831,7 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 1299px) {
   /* line 16, ../scss/widgets/_customer.scss */
   .customer .rsSlide p {
     padding: 15px;
@@ -1775,24 +1903,30 @@ body section.twitter .container {
   width: 27px;
   height: 29px;
 }
-/* line 18, ../scss/layouts/_menu-navigator.scss */
+@media (max-width: 1299px) {
+  /* line 12, ../scss/layouts/_menu-navigator.scss */
+  .menu-navigator a.menu-exit {
+    margin-right: 10px;
+  }
+}
+/* line 21, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator a.menu-exit::before {
   display: block;
   content: '';
   height: 29px;
   background: url(../../images/icons/x.png);
 }
-/* line 25, ../scss/layouts/_menu-navigator.scss */
+/* line 28, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul {
   margin: 250px auto;
   width: 320px;
 }
-/* line 28, ../scss/layouts/_menu-navigator.scss */
+/* line 31, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li {
   display: block;
   border-bottom: 1px solid white;
 }
-/* line 31, ../scss/layouts/_menu-navigator.scss */
+/* line 34, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li a {
   font-family: 'Open sans';
   font-size: 35px;
@@ -1806,7 +1940,7 @@ body section.twitter .container {
   -o-transition-duration: 300ms;
   transition-duration: 300ms;
 }
-/* line 37, ../scss/layouts/_menu-navigator.scss */
+/* line 40, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li a:hover {
   font-weight: bold;
   -webkit-transform: scale(1.1);
@@ -1815,19 +1949,19 @@ body section.twitter .container {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 42, ../scss/layouts/_menu-navigator.scss */
+/* line 45, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: none;
 }
-/* line 45, ../scss/layouts/_menu-navigator.scss */
+/* line 48, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul {
   margin-top: 35px;
   text-align: center;
 }
-/* line 48, ../scss/layouts/_menu-navigator.scss */
+/* line 51, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li {
   display: inline-block;
   width: 32px;
@@ -1844,7 +1978,7 @@ body section.twitter .container {
   -o-transition-duration: 300ms;
   transition-duration: 300ms;
 }
-/* line 57, ../scss/layouts/_menu-navigator.scss */
+/* line 60, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:hover {
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
@@ -1852,43 +1986,43 @@ body section.twitter .container {
   -o-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* line 61, ../scss/layouts/_menu-navigator.scss */
+/* line 64, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(1):hover {
   background-position: -32px;
 }
-/* line 65, ../scss/layouts/_menu-navigator.scss */
+/* line 68, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(2) {
   background-position: -64px;
 }
-/* line 67, ../scss/layouts/_menu-navigator.scss */
+/* line 70, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(2):hover {
   background-position: -96px;
 }
-/* line 71, ../scss/layouts/_menu-navigator.scss */
+/* line 74, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(3) {
   background-position: -128px;
 }
-/* line 73, ../scss/layouts/_menu-navigator.scss */
+/* line 76, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(3):hover {
   background-position: -160px;
 }
-/* line 77, ../scss/layouts/_menu-navigator.scss */
+/* line 80, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(4) {
   background-position: -192px;
 }
-/* line 79, ../scss/layouts/_menu-navigator.scss */
+/* line 82, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(4):hover {
   background-position: -224px;
 }
-/* line 83, ../scss/layouts/_menu-navigator.scss */
+/* line 86, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(5) {
   background-position: -256px;
 }
-/* line 85, ../scss/layouts/_menu-navigator.scss */
+/* line 88, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li:nth-child(5):hover {
   background-position: -288px;
 }
-/* line 89, ../scss/layouts/_menu-navigator.scss */
+/* line 92, ../scss/layouts/_menu-navigator.scss */
 .menu-navigator ul li.social-icons ul li a {
   height: 32px;
 }
@@ -1914,18 +2048,36 @@ body section.twitter .container {
     font-size: 40px;
   }
 }
-/* line 18, ../scss/layouts/_slider.scss */
+@media (max-width: 767px) {
+  /* line 7, ../scss/layouts/_slider.scss */
+  .slider h1 {
+    font-size: 30px;
+  }
+}
+/* line 21, ../scss/layouts/_slider.scss */
 .slider p {
   font-family: "Campton", "LightDemo";
   font-size: 22px;
 }
-/* line 22, ../scss/layouts/_slider.scss */
+@media (max-width: 767px) {
+  /* line 21, ../scss/layouts/_slider.scss */
+  .slider p {
+    font-size: 16px;
+  }
+}
+/* line 28, ../scss/layouts/_slider.scss */
 .slider .logotip {
   padding-top: 45px;
   float: left;
   margin-left: 195px;
 }
-/* line 26, ../scss/layouts/_slider.scss */
+@media (max-width: 767px) {
+  /* line 28, ../scss/layouts/_slider.scss */
+  .slider .logotip {
+    float: none;
+  }
+}
+/* line 35, ../scss/layouts/_slider.scss */
 .slider .logotip:after {
   display: block;
   content: '';
@@ -1933,11 +2085,11 @@ body section.twitter .container {
   height: 30px;
   background: url(../../images/icons/creative.png) no-repeat;
 }
-/* line 35, ../scss/layouts/_slider.scss */
+/* line 44, ../scss/layouts/_slider.scss */
 .slider .button-suggest {
   margin: 45px 0 230px;
 }
-/* line 37, ../scss/layouts/_slider.scss */
+/* line 46, ../scss/layouts/_slider.scss */
 .slider .button-suggest li {
   width: 200px;
   height: 70px;
@@ -1945,7 +2097,7 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 41, ../scss/layouts/_slider.scss */
+/* line 50, ../scss/layouts/_slider.scss */
 .slider .button-suggest li:first-child {
   border: 2px solid white;
   border-radius: 2px;
@@ -1958,7 +2110,7 @@ body section.twitter .container {
   -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 46, ../scss/layouts/_slider.scss */
+/* line 55, ../scss/layouts/_slider.scss */
 .slider .button-suggest li:first-child:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -1966,7 +2118,7 @@ body section.twitter .container {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 50, ../scss/layouts/_slider.scss */
+/* line 59, ../scss/layouts/_slider.scss */
 .slider .button-suggest li:last-child {
   margin-left: 30px;
   background-color: #e74c3c;
@@ -1981,7 +2133,7 @@ body section.twitter .container {
   -o-transition-duration: 400ms;
   transition-duration: 400ms;
 }
-/* line 57, ../scss/layouts/_slider.scss */
+/* line 66, ../scss/layouts/_slider.scss */
 .slider .button-suggest li:last-child:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -1989,39 +2141,45 @@ body section.twitter .container {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 61, ../scss/layouts/_slider.scss */
+/* line 70, ../scss/layouts/_slider.scss */
 .slider .button-suggest li a {
   font-size: 20px;
   font-weight: 600;
   line-height: 70px;
 }
-/* line 69, ../scss/layouts/_slider.scss */
+/* line 78, ../scss/layouts/_slider.scss */
 .slider .nav-slider {
   text-align: center;
   margin-bottom: 40px;
 }
-/* line 72, ../scss/layouts/_slider.scss */
+/* line 81, ../scss/layouts/_slider.scss */
 .slider .nav-slider li {
   width: 40px;
   height: 4px;
   margin-right: 5px;
   background: white;
 }
-/* line 77, ../scss/layouts/_slider.scss */
+/* line 86, ../scss/layouts/_slider.scss */
 .slider .nav-slider li.showPage {
   background: #e74c3c;
 }
-/* line 80, ../scss/layouts/_slider.scss */
+/* line 89, ../scss/layouts/_slider.scss */
 .slider .nav-slider li a {
   height: 4px;
   opacity: 0;
 }
-/* line 87, ../scss/layouts/_slider.scss */
+/* line 96, ../scss/layouts/_slider.scss */
 .slider .red-promotion p {
   margin-right: 125px;
 }
 @media (min-width: 768px) and (max-width: 945px) {
-  /* line 87, ../scss/layouts/_slider.scss */
+  /* line 96, ../scss/layouts/_slider.scss */
+  .slider .red-promotion p {
+    margin-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 96, ../scss/layouts/_slider.scss */
   .slider .red-promotion p {
     margin-right: 0;
   }
@@ -2032,35 +2190,59 @@ body section.twitter .container {
   background: url(../../images/backgrounds/about-us-back.png) no-repeat;
   background-size: cover;
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 1299px) {
   /* line 1, ../scss/layouts/_about-us.scss */
   .about-us {
     text-align: center;
   }
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 7, ../scss/layouts/_about-us.scss */
+@media (max-width: 767px) {
+  /* line 1, ../scss/layouts/_about-us.scss */
+  .about-us {
+    text-align: center;
+  }
+}
+@media (max-width: 1299px) {
+  /* line 10, ../scss/layouts/_about-us.scss */
   .about-us figure {
     padding: 0 10px;
   }
 }
-/* line 11, ../scss/layouts/_about-us.scss */
+@media (max-width: 767px) {
+  /* line 10, ../scss/layouts/_about-us.scss */
+  .about-us figure {
+    padding: 0 5px;
+  }
+}
+/* line 17, ../scss/layouts/_about-us.scss */
 .about-us figure img {
   float: right;
   margin-top: 15px;
 }
-/* line 14, ../scss/layouts/_about-us.scss */
+@media (max-width: 1299px) {
+  /* line 17, ../scss/layouts/_about-us.scss */
+  .about-us figure img {
+    float: none;
+  }
+}
+@media (max-width: 767px) {
+  /* line 17, ../scss/layouts/_about-us.scss */
+  .about-us figure img {
+    display: none;
+  }
+}
+/* line 26, ../scss/layouts/_about-us.scss */
 .about-us figure img.mac {
   margin: -130px -100px 0 25px;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 14, ../scss/layouts/_about-us.scss */
+@media (max-width: 1299px) {
+  /* line 26, ../scss/layouts/_about-us.scss */
   .about-us figure img.mac {
     margin: 0;
     float: none;
   }
 }
-/* line 23, ../scss/layouts/_about-us.scss */
+/* line 35, ../scss/layouts/_about-us.scss */
 .about-us figure figcaption h2 {
   margin-bottom: 25px;
   font-size: 40px;
@@ -2068,22 +2250,41 @@ body section.twitter .container {
   color: black;
 }
 @media (min-width: 768px) and (max-width: 945px) {
-  /* line 23, ../scss/layouts/_about-us.scss */
+  /* line 35, ../scss/layouts/_about-us.scss */
   .about-us figure figcaption h2 {
     font-size: 28px;
   }
 }
-/* line 32, ../scss/layouts/_about-us.scss */
+@media (max-width: 767px) {
+  /* line 35, ../scss/layouts/_about-us.scss */
+  .about-us figure figcaption h2 {
+    font-size: 24px;
+  }
+}
+/* line 47, ../scss/layouts/_about-us.scss */
 .about-us figure figcaption p {
   line-height: 35px;
   color: #3d3d3d;
 }
-/* line 36, ../scss/layouts/_about-us.scss */
+/* line 51, ../scss/layouts/_about-us.scss */
 .about-us figure figcaption dl {
   margin-top: 50px;
   width: 600px;
 }
-/* line 39, ../scss/layouts/_about-us.scss */
+@media (max-width: 1299px) {
+  /* line 51, ../scss/layouts/_about-us.scss */
+  .about-us figure figcaption dl {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  /* line 51, ../scss/layouts/_about-us.scss */
+  .about-us figure figcaption dl {
+    width: 450px;
+    margin: 15px auto 0;
+  }
+}
+/* line 61, ../scss/layouts/_about-us.scss */
 .about-us figure figcaption dl dt {
   background: #eeeeee;
   margin-bottom: 8px;
@@ -2097,22 +2298,22 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 49, ../scss/layouts/_about-us.scss */
+/* line 71, ../scss/layouts/_about-us.scss */
 .about-us figure figcaption dl dt::after {
   content: '-';
   float: right;
   vertical-align: middle;
 }
-/* line 54, ../scss/layouts/_about-us.scss */
+/* line 76, ../scss/layouts/_about-us.scss */
 .about-us figure figcaption dl dt:hover {
   background: #e74c3c;
   color: white;
 }
-/* line 57, ../scss/layouts/_about-us.scss */
+/* line 79, ../scss/layouts/_about-us.scss */
 .about-us figure figcaption dl dt:hover::after {
   content: "+";
 }
-/* line 62, ../scss/layouts/_about-us.scss */
+/* line 84, ../scss/layouts/_about-us.scss */
 .about-us figure figcaption dl dd {
   font-size: 16px;
   display: none;
@@ -2123,24 +2324,24 @@ body section.twitter .container {
 .why-choose {
   clear: both;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 3, ../scss/layouts/_why-choose.scss */
-  .why-choose .red-line {
+@media (max-width: 767px) {
+  /* line 1, ../scss/layouts/_why-choose.scss */
+  .why-choose {
     text-align: center;
   }
 }
-/* line 8, ../scss/layouts/_why-choose.scss */
+/* line 6, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth {
   text-align: center;
 }
-/* line 10, ../scss/layouts/_why-choose.scss */
+/* line 8, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li {
   position: relative;
   text-align: center;
   width: 312px;
   margin-bottom: 40px;
 }
-/* line 15, ../scss/layouts/_why-choose.scss */
+/* line 13, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li::before {
   position: absolute;
   top: 0;
@@ -2168,104 +2369,125 @@ body section.twitter .container {
   border-radius: 2px;
   border: 1px solid #eeeeee;
 }
-/* line 30, ../scss/layouts/_why-choose.scss */
+/* line 28, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:hover:before {
   background-color: #ec6659;
   border: none;
 }
-/* line 34, ../scss/layouts/_why-choose.scss */
+/* line 32, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(1):before {
   background-position: -405px;
 }
-/* line 37, ../scss/layouts/_why-choose.scss */
+/* line 35, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(1):hover:before {
   background-position: -322px;
 }
-/* line 40, ../scss/layouts/_why-choose.scss */
+/* line 38, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(2):before {
   background-position: -725px;
 }
-/* line 43, ../scss/layouts/_why-choose.scss */
+/* line 41, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(2):hover:before {
   background-position: -642px;
 }
-/* line 46, ../scss/layouts/_why-choose.scss */
+/* line 44, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(3):before {
   background-position: -485px;
 }
-/* line 49, ../scss/layouts/_why-choose.scss */
+/* line 47, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(3):hover:before {
   background-position: -565px;
 }
-/* line 52, ../scss/layouts/_why-choose.scss */
+/* line 50, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(4):before {
   background-position: -805px;
 }
-/* line 55, ../scss/layouts/_why-choose.scss */
+/* line 53, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(4):hover:before {
   background-position: -885px;
 }
-/* line 58, ../scss/layouts/_why-choose.scss */
+/* line 56, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(5):before {
   background-position: -3px;
 }
-/* line 61, ../scss/layouts/_why-choose.scss */
+/* line 59, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(5):hover:before {
   background-position: -85px;
 }
-/* line 64, ../scss/layouts/_why-choose.scss */
+/* line 62, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(6):before {
   background-position: -248px;
 }
-/* line 67, ../scss/layouts/_why-choose.scss */
+/* line 65, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth li:nth-child(6):hover:before {
   background-position: -160px;
 }
-/* line 71, ../scss/layouts/_why-choose.scss */
+/* line 69, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth h4 {
   margin: 130px 0 0 0;
   font-size: 25px;
 }
-/* line 75, ../scss/layouts/_why-choose.scss */
+/* line 73, ../scss/layouts/_why-choose.scss */
 .why-choose .our-worth p {
   padding: 0 5px;
   color: #a7a7a7;
   line-height: 30px;
   margin: 10px 0 40px 0;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 82, ../scss/layouts/_why-choose.scss */
+@media (max-width: 1299px) {
+  /* line 80, ../scss/layouts/_why-choose.scss */
   .why-choose figure {
     text-align: center;
   }
 }
-/* line 86, ../scss/layouts/_why-choose.scss */
+/* line 84, ../scss/layouts/_why-choose.scss */
 .why-choose figure img {
   float: right;
   margin: -80px -130px 0 0;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 86, ../scss/layouts/_why-choose.scss */
+@media (max-width: 1299px) {
+  /* line 84, ../scss/layouts/_why-choose.scss */
   .why-choose figure img {
     float: none;
     margin: 0;
   }
 }
-/* line 95, ../scss/layouts/_why-choose.scss */
+@media (max-width: 767px) {
+  /* line 84, ../scss/layouts/_why-choose.scss */
+  .why-choose figure img {
+    float: none;
+    margin: 0;
+    width: 450px;
+    height: 405px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 98, ../scss/layouts/_why-choose.scss */
+  .why-choose figure figcaption {
+    margin: 0 auto;
+  }
+}
+/* line 102, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar {
   margin-top: 60px;
 }
-/* line 98, ../scss/layouts/_why-choose.scss */
+/* line 104, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li {
   position: relative;
   margin-bottom: 20px;
 }
-/* line 101, ../scss/layouts/_why-choose.scss */
+@media (max-width: 767px) {
+  /* line 104, ../scss/layouts/_why-choose.scss */
+  .why-choose figure figcaption ul.skill-bar li {
+    margin: 0 auto 20px;
+  }
+}
+/* line 110, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li p {
   color: #202020;
   line-height: 35px;
 }
-/* line 105, ../scss/layouts/_why-choose.scss */
+/* line 114, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li div {
   width: 540px;
   height: 18px;
@@ -2273,26 +2495,32 @@ body section.twitter .container {
   border: 1px solid #ec6659;
   border-radius: 3px;
 }
-/* line 111, ../scss/layouts/_why-choose.scss */
+@media (max-width: 767px) {
+  /* line 114, ../scss/layouts/_why-choose.scss */
+  .why-choose figure figcaption ul.skill-bar li div {
+    width: 450px;
+  }
+}
+/* line 123, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li div span {
   display: block;
   height: 100%;
   color: #ec6659;
   background: #ec6659;
 }
-/* line 120, ../scss/layouts/_why-choose.scss */
+/* line 132, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li:nth-child(1) span {
   width: 90%;
 }
-/* line 123, ../scss/layouts/_why-choose.scss */
+/* line 135, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li:nth-child(2) span {
   width: 80%;
 }
-/* line 126, ../scss/layouts/_why-choose.scss */
+/* line 138, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li:nth-child(3) span {
   width: 85%;
 }
-/* line 129, ../scss/layouts/_why-choose.scss */
+/* line 141, ../scss/layouts/_why-choose.scss */
 .why-choose figure figcaption ul.skill-bar li:nth-child(4) span {
   width: 65%;
 }
@@ -2302,7 +2530,7 @@ body section.twitter .container {
   color: #666666;
   clear: both;
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 1299px) {
   /* line 1, ../scss/layouts/_team.scss */
   .team {
     text-align: center;
@@ -2312,7 +2540,7 @@ body section.twitter .container {
 .team p {
   margin-bottom: 35px;
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 1299px) {
   /* line 7, ../scss/layouts/_team.scss */
   .team p {
     padding: 0 10px;
@@ -2342,16 +2570,29 @@ body section.twitter .container {
   border: 1px solid #ec6659;
   overflow: hidden;
 }
-/* line 27, ../scss/layouts/_team.scss */
+@media (max-width: 767px) {
+  /* line 16, ../scss/layouts/_team.scss */
+  .team .wrapper figure {
+    display: block;
+    margin: 15px auto 0;
+  }
+}
+/* line 31, ../scss/layouts/_team.scss */
 .team .wrapper figure:last-child {
   margin-right: 0;
 }
-/* line 31, ../scss/layouts/_team.scss */
+@media (max-width: 767px) {
+  /* line 31, ../scss/layouts/_team.scss */
+  .team .wrapper figure:last-child {
+    margin: 15px auto 0;
+  }
+}
+/* line 38, ../scss/layouts/_team.scss */
 .team .wrapper figure:hover figcaption {
   height: 100%;
   opacity: 1;
 }
-/* line 36, ../scss/layouts/_team.scss */
+/* line 43, ../scss/layouts/_team.scss */
 .team .wrapper figure figcaption {
   width: 100%;
   position: absolute;
@@ -2370,17 +2611,17 @@ body section.twitter .container {
   -o-transition-duration: 800ms;
   transition-duration: 800ms;
 }
-/* line 47, ../scss/layouts/_team.scss */
+/* line 54, ../scss/layouts/_team.scss */
 .team .wrapper figure figcaption h4 {
   font-size: 16px;
   font-weight: 600;
   margin: 100px 0 5px 0;
 }
-/* line 52, ../scss/layouts/_team.scss */
+/* line 59, ../scss/layouts/_team.scss */
 .team .wrapper figure figcaption p {
   margin: 0;
 }
-/* line 55, ../scss/layouts/_team.scss */
+/* line 62, ../scss/layouts/_team.scss */
 .team .wrapper figure figcaption a {
   margin-top: 95px;
   font-size: 16px;
@@ -2468,6 +2709,12 @@ body section.twitter .container {
     margin-top: 16px;
   }
 }
+@media (max-width: 767px) {
+  /* line 3, ../scss/layouts/_clients.scss */
+  .clients li {
+    margin-top: 16px;
+  }
+}
 
 /* line 1, ../scss/layouts/_portfolios.scss */
 .portfolios {
@@ -2486,29 +2733,47 @@ body section.twitter .container {
 @media (max-width: 1299px) {
   /* line 5, ../scss/layouts/_portfolios.scss */
   .portfolios .red-promotion p {
+    line-height: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 945px) {
+  /* line 5, ../scss/layouts/_portfolios.scss */
+  .portfolios .red-promotion p {
     margin: 0 220px;
   }
 }
-@media (max-width: 1299px) {
-  /* line 13, ../scss/layouts/_portfolios.scss */
-  .portfolios .red-promotion .button {
-    margin-bottom: 10px;
+@media (max-width: 767px) {
+  /* line 5, ../scss/layouts/_portfolios.scss */
+  .portfolios .red-promotion p {
+    margin: 0 120px;
   }
 }
-/* line 20, ../scss/layouts/_portfolios.scss */
+@media (max-width: 1299px) {
+  /* line 19, ../scss/layouts/_portfolios.scss */
+  .portfolios .red-promotion .button {
+    margin: 10px 0;
+  }
+}
+/* line 26, ../scss/layouts/_portfolios.scss */
 .portfolios .red-line::before {
   left: 415px;
 }
-/* line 25, ../scss/layouts/_portfolios.scss */
+@media (max-width: 767px) {
+  /* line 26, ../scss/layouts/_portfolios.scss */
+  .portfolios .red-line::before {
+    left: 50%;
+  }
+}
+/* line 34, ../scss/layouts/_portfolios.scss */
 .portfolios .sort-img-menu {
   margin: 35px 0 50px;
 }
-/* line 27, ../scss/layouts/_portfolios.scss */
+/* line 36, ../scss/layouts/_portfolios.scss */
 .portfolios .sort-img-menu li {
   position: relative;
   margin-right: 10px;
 }
-/* line 30, ../scss/layouts/_portfolios.scss */
+/* line 39, ../scss/layouts/_portfolios.scss */
 .portfolios .sort-img-menu li:first-child:before {
   display: inline-block;
   vertical-align: middle;
@@ -2517,21 +2782,21 @@ body section.twitter .container {
   width: 16px;
   height: 16px;
 }
-/* line 38, ../scss/layouts/_portfolios.scss */
+/* line 47, ../scss/layouts/_portfolios.scss */
 .portfolios .sort-img-menu li::before {
   content: '/';
   margin-right: 10px;
 }
-/* line 42, ../scss/layouts/_portfolios.scss */
+/* line 51, ../scss/layouts/_portfolios.scss */
 .portfolios .sort-img-menu li a {
   display: inline-block;
   color: #666666;
 }
-/* line 45, ../scss/layouts/_portfolios.scss */
+/* line 54, ../scss/layouts/_portfolios.scss */
 .portfolios .sort-img-menu li a:hover {
   color: #ec6659;
 }
-/* line 51, ../scss/layouts/_portfolios.scss */
+/* line 60, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container {
   width: 1300px;
   margin: 0 auto;
@@ -2539,12 +2804,24 @@ body section.twitter .container {
   text-align: center;
 }
 @media (max-width: 1299px) {
-  /* line 51, ../scss/layouts/_portfolios.scss */
+  /* line 60, ../scss/layouts/_portfolios.scss */
+  .portfolios .figure-container {
+    width: 975px;
+  }
+}
+@media (min-width: 768px) and (max-width: 945px) {
+  /* line 60, ../scss/layouts/_portfolios.scss */
   .portfolios .figure-container {
     width: 768px;
   }
 }
-/* line 59, ../scss/layouts/_portfolios.scss */
+@media (max-width: 767px) {
+  /* line 60, ../scss/layouts/_portfolios.scss */
+  .portfolios .figure-container {
+    width: 330px;
+  }
+}
+/* line 74, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure {
   display: inline-block;
   position: relative;
@@ -2563,7 +2840,7 @@ body section.twitter .container {
   -o-transition-duration: 600ms;
   transition-duration: 600ms;
 }
-/* line 69, ../scss/layouts/_portfolios.scss */
+/* line 84, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure:hover img {
   -webkit-transition-duration: 3000ms;
   -moz-transition-duration: 3000ms;
@@ -2575,7 +2852,7 @@ body section.twitter .container {
   -o-transform: scale(1.5);
   transform: scale(1.5);
 }
-/* line 73, ../scss/layouts/_portfolios.scss */
+/* line 88, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure:hover figcaption {
   background: rgba(224, 92, 78, 0.9);
   top: 0;
@@ -2584,15 +2861,15 @@ body section.twitter .container {
   height: 100%;
   font-size: 16px;
 }
-/* line 80, ../scss/layouts/_portfolios.scss */
+/* line 95, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure:hover figcaption p {
   opacity: 1;
 }
-/* line 83, ../scss/layouts/_portfolios.scss */
+/* line 98, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure:hover figcaption a {
   opacity: 1;
 }
-/* line 88, ../scss/layouts/_portfolios.scss */
+/* line 103, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure figcaption {
   position: absolute;
   top: 120px;
@@ -2614,11 +2891,11 @@ body section.twitter .container {
   -o-transition-duration: 200ms;
   transition-duration: 200ms;
 }
-/* line 100, ../scss/layouts/_portfolios.scss */
+/* line 115, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure figcaption:hover {
   background: rgba(224, 92, 78, 0.9);
 }
-/* line 103, ../scss/layouts/_portfolios.scss */
+/* line 118, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure figcaption p {
   margin: 115px 0 35px 0;
   font-size: 30px;
@@ -2626,7 +2903,7 @@ body section.twitter .container {
   color: white;
   font-weight: 600;
 }
-/* line 110, ../scss/layouts/_portfolios.scss */
+/* line 125, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure figcaption a {
   position: relative;
   display: inline-block;
@@ -2650,7 +2927,7 @@ body section.twitter .container {
   -o-transition-duration: 200ms;
   transition-duration: 200ms;
 }
-/* line 124, ../scss/layouts/_portfolios.scss */
+/* line 139, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure figcaption a:hover:after {
   opacity: 1;
   -webkit-transform: scale(7) rotate(365deg);
@@ -2659,7 +2936,7 @@ body section.twitter .container {
   -o-transform: scale(7) rotate(365deg);
   transform: scale(7) rotate(365deg);
 }
-/* line 128, ../scss/layouts/_portfolios.scss */
+/* line 143, ../scss/layouts/_portfolios.scss */
 .portfolios .figure-container figure figcaption a::after {
   position: absolute;
   top: 0;
@@ -2679,11 +2956,11 @@ body section.twitter .container {
   -o-transition-duration: 2000ms;
   transition-duration: 2000ms;
 }
-/* line 145, ../scss/layouts/_portfolios.scss */
+/* line 160, ../scss/layouts/_portfolios.scss */
 .portfolios .load-more {
-  display: inline-block;
+  display: block;
   width: 178px;
-  margin: 35px 0 40px 0;
+  margin: 35px auto 40px;
   color: #666666;
   line-height: 50px;
   font-family: 'Campton', 'Bold Demo';
@@ -2702,7 +2979,7 @@ body section.twitter .container {
   -o-transition-duration: 600ms;
   transition-duration: 600ms;
 }
-/* line 158, ../scss/layouts/_portfolios.scss */
+/* line 173, ../scss/layouts/_portfolios.scss */
 .portfolios .load-more::before {
   display: inline-block;
   content: '';
@@ -2712,7 +2989,7 @@ body section.twitter .container {
   vertical-align: middle;
   background: url(../../images/icons/reload-arrows.png) no-repeat;
 }
-/* line 167, ../scss/layouts/_portfolios.scss */
+/* line 182, ../scss/layouts/_portfolios.scss */
 .portfolios .load-more:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
@@ -2720,7 +2997,7 @@ body section.twitter .container {
   -o-transform: scale(1.1);
   transform: scale(1.1);
 }
-/* line 169, ../scss/layouts/_portfolios.scss */
+/* line 184, ../scss/layouts/_portfolios.scss */
 .portfolios .load-more:hover::before {
   -webkit-transition-property: all;
   -moz-transition-property: all;
@@ -2736,17 +3013,17 @@ body section.twitter .container {
   -o-transform: rotate(-360deg);
   transform: rotate(-360deg);
 }
-/* line 176, ../scss/layouts/_portfolios.scss */
+/* line 191, ../scss/layouts/_portfolios.scss */
 .portfolios p {
   color: #666666;
   line-height: 30px;
   margin-top: 5px;
 }
-/* line 180, ../scss/layouts/_portfolios.scss */
+/* line 195, ../scss/layouts/_portfolios.scss */
 .portfolios p span {
   color: #3a3a3a;
 }
-/* line 184, ../scss/layouts/_portfolios.scss */
+/* line 199, ../scss/layouts/_portfolios.scss */
 .portfolios h4 {
   font-family: 'open sans';
   font-size: 20px;
@@ -2757,13 +3034,13 @@ body section.twitter .container {
   background: #f4f4f4;
   border-top: 1px solid #e5e5e5;
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 1299px) {
   /* line 1, ../scss/layouts/_we-are-here.scss */
   .we-are-here {
     text-align: center;
   }
 }
-/* line 7, ../scss/layouts/_we-are-here.scss */
+/* line 8, ../scss/layouts/_we-are-here.scss */
 .we-are-here figure {
   position: relative;
   float: right;
@@ -2776,18 +3053,18 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 7, ../scss/layouts/_we-are-here.scss */
+@media (max-width: 1299px) {
+  /* line 8, ../scss/layouts/_we-are-here.scss */
   .we-are-here figure {
     float: none;
     margin: 20px auto;
   }
 }
-/* line 20, ../scss/layouts/_we-are-here.scss */
+/* line 21, ../scss/layouts/_we-are-here.scss */
 .we-are-here figure img {
   margin: 80px 105px 0 105px;
 }
-/* line 23, ../scss/layouts/_we-are-here.scss */
+/* line 24, ../scss/layouts/_we-are-here.scss */
 .we-are-here figure figcaption {
   position: absolute;
   top: 10px;
@@ -2800,20 +3077,20 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 32, ../scss/layouts/_we-are-here.scss */
+/* line 33, ../scss/layouts/_we-are-here.scss */
 .we-are-here figure figcaption p {
   padding-top: 150px;
 }
-/* line 37, ../scss/layouts/_we-are-here.scss */
+/* line 38, ../scss/layouts/_we-are-here.scss */
 .we-are-here h3 {
   margin-bottom: 15px;
 }
-/* line 40, ../scss/layouts/_we-are-here.scss */
+/* line 41, ../scss/layouts/_we-are-here.scss */
 .we-are-here p {
   color: #666666;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 40, ../scss/layouts/_we-are-here.scss */
+@media (max-width: 1299px) {
+  /* line 41, ../scss/layouts/_we-are-here.scss */
   .we-are-here p {
     margin-bottom: 50px;
     padding: 0 10px;
@@ -2841,7 +3118,13 @@ body section.twitter .container {
   background: #e74c3c;
   line-height: 100px;
 }
-/* line 15, ../scss/layouts/_contact-us.scss */
+@media (max-width: 767px) {
+  /* line 9, ../scss/layouts/_contact-us.scss */
+  .contact-us .send-form {
+    line-height: 50px;
+  }
+}
+/* line 18, ../scss/layouts/_contact-us.scss */
 .contact-us .send-form:hover:after {
   -webkit-transform: translate(20px, -30px);
   -moz-transform: translate(20px, -30px);
@@ -2850,7 +3133,7 @@ body section.twitter .container {
   transform: translate(20px, -30px);
   opacity: 0.4;
 }
-/* line 19, ../scss/layouts/_contact-us.scss */
+/* line 22, ../scss/layouts/_contact-us.scss */
 .contact-us .send-form::before {
   position: absolute;
   content: '';
@@ -2861,7 +3144,13 @@ body section.twitter .container {
   border-radius: 50%;
   background: #e74c3c;
 }
-/* line 29, ../scss/layouts/_contact-us.scss */
+@media (max-width: 767px) {
+  /* line 22, ../scss/layouts/_contact-us.scss */
+  .contact-us .send-form::before {
+    display: none;
+  }
+}
+/* line 35, ../scss/layouts/_contact-us.scss */
 .contact-us .send-form::after {
   position: absolute;
   content: '';
@@ -2879,7 +3168,13 @@ body section.twitter .container {
   -o-transition-duration: 1000ms;
   transition-duration: 1000ms;
 }
-/* line 42, ../scss/layouts/_contact-us.scss */
+@media (max-width: 767px) {
+  /* line 35, ../scss/layouts/_contact-us.scss */
+  .contact-us .send-form::after {
+    display: none;
+  }
+}
+/* line 50, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail {
   font-family: inherit;
   top: 10%;
@@ -2893,7 +3188,19 @@ body section.twitter .container {
   background: white;
   text-transform: uppercase;
 }
-/* line 54, ../scss/layouts/_contact-us.scss */
+@media (max-width: 1299px) {
+  /* line 50, ../scss/layouts/_contact-us.scss */
+  .contact-us .send-mail {
+    width: 450px;
+    height: 560px;
+    left: 10%;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+/* line 69, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail::before {
   position: absolute;
   display: block;
@@ -2912,30 +3219,18 @@ body section.twitter .container {
   -o-transition-duration: 1000ms;
   transition-duration: 1000ms;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 42, ../scss/layouts/_contact-us.scss */
-  .contact-us .send-mail {
-    width: 600px;
-    height: 560px;
-    left: 0;
-    bottom: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-}
-/* line 73, ../scss/layouts/_contact-us.scss */
+/* line 81, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form {
   padding: 60px;
   text-align: center;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 73, ../scss/layouts/_contact-us.scss */
+@media (max-width: 1299px) {
+  /* line 81, ../scss/layouts/_contact-us.scss */
   .contact-us .send-mail form {
     padding: 0;
   }
 }
-/* line 79, ../scss/layouts/_contact-us.scss */
+/* line 87, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form input {
   display: inline-block;
   width: 300px;
@@ -2947,11 +3242,11 @@ body section.twitter .container {
   box-sizing: border-box;
   border: 1px solid #dfdfdf;
 }
-/* line 87, ../scss/layouts/_contact-us.scss */
+/* line 95, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form input:focus {
   border: 1px solid #e74c3c;
 }
-/* line 91, ../scss/layouts/_contact-us.scss */
+/* line 99, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form textarea {
   margin: 12px 12px 0 12px;
   width: 628px;
@@ -2963,28 +3258,28 @@ body section.twitter .container {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 99, ../scss/layouts/_contact-us.scss */
+/* line 107, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form textarea:focus {
   border: 1px solid #e74c3c;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 91, ../scss/layouts/_contact-us.scss */
+@media (max-width: 1299px) {
+  /* line 99, ../scss/layouts/_contact-us.scss */
   .contact-us .send-mail form textarea {
-    width: 580px;
+    width: 400px;
     margin: 12px 0 0;
   }
 }
-/* line 107, ../scss/layouts/_contact-us.scss */
+/* line 115, ../scss/layouts/_contact-us.scss */
 .contact-us .send-mail form button {
   width: 628px;
   height: 45px;
   background: #e74c3c;
   border: none;
 }
-@media (min-width: 768px) and (max-width: 945px) {
-  /* line 107, ../scss/layouts/_contact-us.scss */
+@media (max-width: 1299px) {
+  /* line 115, ../scss/layouts/_contact-us.scss */
   .contact-us .send-mail form button {
-    width: 580px;
+    width: 400px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -3000,7 +3295,7 @@ footer {
 footer p {
   color: #b5b5b5;
 }
-@media (min-width: 768px) and (max-width: 945px) {
+@media (max-width: 1299px) {
   /* line 4, ../scss/layouts/_footer.scss */
   footer p {
     padding: 0 15px;
@@ -3017,15 +3312,21 @@ footer figure {
     width: 740px;
   }
 }
-/* line 16, ../scss/layouts/_footer.scss */
+@media (max-width: 767px) {
+  /* line 10, ../scss/layouts/_footer.scss */
+  footer figure {
+    width: 450px;
+  }
+}
+/* line 19, ../scss/layouts/_footer.scss */
 footer figure img {
   margin-bottom: 35px;
 }
-/* line 20, ../scss/layouts/_footer.scss */
+/* line 23, ../scss/layouts/_footer.scss */
 footer ul {
   margin-bottom: 30px;
 }
-/* line 22, ../scss/layouts/_footer.scss */
+/* line 25, ../scss/layouts/_footer.scss */
 footer ul li {
   width: 52px;
   height: 52px;
@@ -3039,7 +3340,7 @@ footer ul li {
   -o-transition-duration: 300ms;
   transition-duration: 300ms;
 }
-/* line 28, ../scss/layouts/_footer.scss */
+/* line 31, ../scss/layouts/_footer.scss */
 footer ul li:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -3047,72 +3348,72 @@ footer ul li:hover {
   -o-transform: scale(1.05);
   transform: scale(1.05);
 }
-/* line 31, ../scss/layouts/_footer.scss */
+/* line 34, ../scss/layouts/_footer.scss */
 footer ul li a {
   height: 52px;
   background: url(../../images/icons/footer-icons.png) no-repeat;
 }
-/* line 35, ../scss/layouts/_footer.scss */
+/* line 38, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(1) a {
   background-position: -780px;
 }
-/* line 37, ../scss/layouts/_footer.scss */
+/* line 40, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(1) a:hover {
   background-position: -728px;
 }
-/* line 41, ../scss/layouts/_footer.scss */
+/* line 44, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(2) a {
   background-position: -676px;
 }
-/* line 43, ../scss/layouts/_footer.scss */
+/* line 46, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(2) a:hover {
   background-position: -624px;
 }
-/* line 47, ../scss/layouts/_footer.scss */
+/* line 50, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(3) a {
   background-position: -572px;
 }
-/* line 49, ../scss/layouts/_footer.scss */
+/* line 52, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(3) a:hover {
   background-position: -520px;
 }
-/* line 53, ../scss/layouts/_footer.scss */
+/* line 56, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(4) a {
   background-position: -468px;
 }
-/* line 55, ../scss/layouts/_footer.scss */
+/* line 58, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(4) a:hover {
   background-position: -416px;
 }
-/* line 59, ../scss/layouts/_footer.scss */
+/* line 62, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(5) a {
   background-position: -364px;
 }
-/* line 61, ../scss/layouts/_footer.scss */
+/* line 64, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(5) a:hover {
   background-position: -312px;
 }
-/* line 65, ../scss/layouts/_footer.scss */
+/* line 68, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(6) a {
   background-position: -260px;
 }
-/* line 67, ../scss/layouts/_footer.scss */
+/* line 70, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(6) a:hover {
   background-position: -208px;
 }
-/* line 71, ../scss/layouts/_footer.scss */
+/* line 74, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(7) a {
   background-position: -156px;
 }
-/* line 73, ../scss/layouts/_footer.scss */
+/* line 76, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(7) a:hover {
   background-position: -104px;
 }
-/* line 77, ../scss/layouts/_footer.scss */
+/* line 80, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(8) a {
   background-position: -52px;
 }
-/* line 79, ../scss/layouts/_footer.scss */
+/* line 82, ../scss/layouts/_footer.scss */
 footer ul li:nth-child(8) a:hover {
   background-position: 0;
 }

@@ -42,7 +42,10 @@
     a{
       height:100px;
     }
-    @media (max-width: 1299px) {
+    @include breackpoint (large) {
+      margin-top:16px;
+    }
+    @include breackpoint (extra-small){
       margin-top:16px;
     }
   }

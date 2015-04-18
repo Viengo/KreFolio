@@ -1,12 +1,12 @@
 .team {
   color: #666666;
   clear:both;
-  @media (min-width: 768px) and (max-width:945px){
+  @include breackpoint (large){
     text-align:center;
   }
   p {
     margin-bottom: 35px;
-      @media (min-width: 768px) and (max-width:945px) {
+    @include breackpoint (large) {
         padding:0 10px;
       }
   }
@@ -24,8 +24,15 @@
       @include border-radius(2px);
       border: 1px solid #ec6659;
       overflow: hidden;
+      @include breackpoint (extra-small){
+        display:block;
+        margin:15px auto 0;
+      }
       &:last-child {
         margin-right: 0;
+        @include breackpoint (extra-small){
+          margin:15px auto 0;
+        }
       }
       &:hover {
         figcaption {
@@ -59,7 +66,7 @@
           background: #c0392b;
         }
       }
-        @media (min-width: 768px) and (max-width:945px) {
+      @include breackpoint (small) {
           margin:0 5px 20px;
         }
     }

@@ -10,19 +10,28 @@
     letter-spacing: -1px;
     text-transform: uppercase;
 
-    @media (min-width: 768px) and (max-width:945px) {
+    @include breackpoint (small) {
       font-size:40px;
+    }
+    @include breackpoint (extra-small) {
+      font-size:30px;
     }
   }
 
   p {
     font-family: "Campton", "LightDemo";
     font-size: 22px;
+    @include breackpoint (extra-small){
+      font-size:16px;
+    }
   }
   .logotip {
     padding-top: 45px;
     float: left;
     margin-left: 195px;
+    @include breackpoint (extra-small){
+      float:none;
+    }
     &:after {
       display: block;
       content: '';
@@ -87,7 +96,10 @@
     p {
       margin-right: 125px;
 
-      @media (min-width: 768px) and (max-width:945px){
+      @include breackpoint (small) {
+        margin-right:0;
+      }
+      @include breackpoint (extra-small){
         margin-right:0;
       }
     }

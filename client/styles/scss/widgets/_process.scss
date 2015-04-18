@@ -7,14 +7,21 @@
   font-size: 16px;
   line-height: 30px;
   figure {
-    @media (min-width: 768px) and (max-width:945px) {
+    @include breackpoint (small){
+      text-align:center;
+    }
+    @include breackpoint (extra-small){
       text-align:center;
     }
     img {
       float: left;
       margin-right: 105px;
       margin-bottom: 85px;
-      @media (min-width: 768px) and (max-width:945px) {
+      @include breackpoint (small) {
+        float:none;
+        margin-right:0;
+      }
+      @include breackpoint (extra-small){
         float:none;
         margin-right:0;
       }
@@ -25,9 +32,13 @@
         display: block;
         position: relative;
         margin-bottom: 35px;
-        @media (min-width: 768px) and (max-width:945px) {
+        @include breackpoint (small) {
           padding:0 10px;
           margin-bottom:50px;
+        }
+          @include breackpoint (extra-small){
+            padding:0 10px;
+            margin-bottom:50px;
         }
         &::before {
           content: '';
@@ -37,7 +48,11 @@
           background: url(../../images/icons/skills.png) no-repeat;
           width: 80px;
           height: 80px;
-          @media (min-width: 768px) and (max-width:945px) {
+          @include breackpoint (small) {
+            top:-60px;
+            right:45%;
+          }
+          @include breackpoint (extra-small){
             top:-60px;
             right:45%;
           }
@@ -55,7 +70,7 @@
       h4 {
         font-size: 25px;
         font-weight: 600;
-        @media (min-width: 768px) and (max-width:945px) {
+        @include breackpoint (small) {
           margin-bottom:10px;
         }
       }

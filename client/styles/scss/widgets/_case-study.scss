@@ -1,28 +1,36 @@
 .case-study {
   font-family: 'Open sans', 'Light';
   color: white;
-  width:1300px;
-  @media (max-width: 1299px) {
-    width:650px;
-    margin:0 auto;
+  width: 1300px;
+  @include breackpoint (large) {
+    width: 650px;
+    margin: 0 auto;
   }
-  @media (max-width: 1299px) {
-      max-width:945px;
-    }
+  @include breackpoint (extra-small){
+    width:450px;
+    height:600px;
+  }
   figure {
     position: relative;
     width: 50%;
-    height:401px;
-    @media (max-width: 1299px)  {
-      width:100%;
+    height: 401px;
+    @include breackpoint (large) {
+      width: 100%;
+    }
+    @include breackpoint (extra-small){
+      height:300px;
     }
     &:first-child {
       float: left;
       text-align: right;
       figcaption {
-        padding:80px 55px 80px 150px;
-        @media (max-width: 1299px)  {
-          padding:80px 55px 80px 50px;
+        padding: 80px 55px 80px 150px;
+        @include breackpoint (large) {
+          padding: 80px 55px 80px 50px;
+        }
+        @include breackpoint (extra-small){
+          padding:15px;
+          text-align:center;
         }
       }
     }
@@ -30,41 +38,48 @@
       float: right;
       text-align: left;
       figcaption {
-      padding:80px 150px 80px 55px;
-        @media (max-width: 1299px)  {
-          padding:80px 50px 80px 55px;
+        padding: 80px 150px 80px 55px;
+        @include breackpoint (large) {
+          padding: 80px 50px 80px 55px;
+        }
+        @include breackpoint (extra-small){
+          padding:15px;
+          text-align:center;
         }
       }
     }
     img {
       width: 100%;
-      height:401px;
+      height: 401px;
+      @include breackpoint (extra-small){
+        height:100%;
+      }
     }
     figcaption {
       position: absolute;
-      top:0;
-      right:0;
-      left:0;
-      bottom:0;
-      height:401px;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      height: 401px;
       @include box-sizing(border-box);
       @include transition-property(all);
       @include transition-duration(400ms);
-      &:hover{
+      @include breackpoint (extra-small){
+        height:300px;
+      }
+      &:hover {
         background: rgba(224, 92, 78, 0.9);
-        cursor:pointer;
+        cursor: pointer;
       }
       h3 {
-        color:white;
+        color: white;
         font-size: 30px;
         font-weight: 600;
         line-height: 45px;
         margin-bottom: 20px;
       }
 
-  }
-    @media (max-width: 1299px){
-      width:100%;
     }
   }
 }

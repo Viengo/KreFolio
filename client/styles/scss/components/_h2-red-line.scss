@@ -11,8 +11,8 @@
       content: "";
       background:url(../../images/icons/line.png) no-repeat;
     }
-  @media (min-width: 768px) and (max-width:945px){
-    padding:0 10px;
+  @include breackpoint (large){
+    text-align:center;
   }
     span {
       color: #e74c3c;

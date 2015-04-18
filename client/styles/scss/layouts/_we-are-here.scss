@@ -1,9 +1,10 @@
 .we-are-here{
 background:#f4f4f4;
 border-top:1px solid #e5e5e5;
-  @media (min-width: 768px) and (max-width:945px) {
+  @include breackpoint (large) {
     text-align:center;
   }
+
 figure{
   position:relative;
   float:right;
@@ -13,7 +14,7 @@ figure{
   border:1px solid #dbd8d8;
   background:white;
   @include box-sizing(border-box);
-  @media (min-width: 768px) and (max-width:945px) {
+  @include breackpoint (large) {
    float:none;
     margin:20px auto;
   }
@@ -39,7 +40,7 @@ figure{
   }
   p{
     color:#666666;
-    @media (min-width: 768px) and (max-width:945px){
+    @include breackpoint (large){
       margin-bottom:50px;
       padding:0 10px;
     }

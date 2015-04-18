@@ -5,6 +5,10 @@
     top: 400px;
     left: 50px;
     @include box-sizing(border-box);
+   @include breackpoint (extra-small){
+     top:600px;
+     left:5px;
+   }
     &:before {
       display: block;
       content: '';
@@ -30,6 +34,10 @@
     top: 400px;
     right: 50px;
     @include box-sizing(border-box);
+    @include breackpoint (extra-small){
+      top:600px;
+      right:5px;
+    }
     &::before {
       display: block;
       content: '';

@@ -6,11 +6,17 @@
     font-family: 'Campton', 'Light Demo';
     font-size: 22px;
     line-height: 100px;
+    @include breackpoint (extra-small){
+      line-height:50px;
+    }
   }
 
   a.button {
     width: 196px;
     margin: 0 10px 0 10px;
+    @include breackpoint (extra-small){
+      margin:10px;
+    }
   }
 
 }
